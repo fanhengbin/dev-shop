@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <!-- 初始化样式 -->
+    <link rel="stylesheet" href="../assets/styles/reset.css">
+    <!-- 公共样式   -->
+    <link rel="stylesheet" href="../assets/styles/common.css">
+    <!-- 详情样式 -->
+    <link rel="stylesheet" href="../assets/styles/details.css">
+    <!-- jq2.11 -->
+    <script src="../assets/javascript/jquery.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container center">
+            <div class="preview fl">
+                <div class="preview-booth">
+                    <a href="javascript:;">
+                        <img src="../assets/images/details.jpg" alt="" height="560px" width="560px">
+                    </a>
+                </div>
+                <ul class="preview-thumb clearfix">
+                    <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>                
+                </ul>
+                <div class="preview-action">
+                    <a href=""><i></i>收藏</a>
+                    <a href=""><i></i>对比</a>
+                </div>
+            </div>
+            <div class="property fl">
+                <!-- 商品名称、特点简介 -->
+                <div class="property-hd">
+                    <h1>商品名称</h1>
+                    <p class="mod-info active">商品特点简介。商品特点简介。商品特点简介。</p>
+                </div>
+                <!-- 商品价格+加够 -->
+                <div class="property-sell">
+                    <div class="property-sell-price">
+                        <div class="mod-price">
+                            <small>¥</small>
+                            <!-- 价格 -->
+                            <span  class="vm-money">9999.00</span>
+                        </div>
+                    </div>
+                    <!-- 优惠活动 -->
+                    <dl class="property-sell-morebuy" >
+                        <dt class="vm-entry">
+                            <span>加价购</span>
+                        </dt>
+                        <dd>
+                            <span>
+                                另外再加<em >15</em>元，即可换购超值商品
+                            </span>
+                            <a class="vm-more"  href="#">立即加购 &gt;</a>
+                        </dd>
+                    </dl>
+                </div>
+                <!-- 型号 -->
+                <div class="property-sibling">
+                    <dl data-property="型号" class="property-sibling-item">
+                        <dt class="vm-metatit">
+                            型&nbsp&nbsp&nbsp&nbsp号
+                        </dt>
+                        <dd >
+                            <a href="javascript:;">型号一</a>
+                            <a href="javascript:;">型号二</a>
+                            <a href="javascript:;">型号三</a>
+                            <a href="javascript:;">型号四</a>
+                            <a href="javascript:;">型号五</a>
+                            <a href="javascript:;">型号六</a>
+                        </dd>
+                    </dl>
+                </div>
+                <!-- 大小 -->
+                <div class="property-sibling">
+                        <dl data-property="型号" class="property-sibling-item">
+                            <dt class="vm-metatit">
+                                型&nbsp&nbsp&nbsp&nbsp号
+                            </dt>
+                            <dd >
+                                <a href="javascript:;">型号一</a>
+                                <a href="javascript:;">型号二</a>
+                                <a href="javascript:;">型号三</a>
+                                <a href="javascript:;">型号四</a>
+                                <a href="javascript:;">型号五</a>
+                                <a href="javascript:;">型号六</a>
+                            </dd>
+                        </dl>
+                </div>
+                <!-- 颜色 -->
+                <div class="property-sibling">
+                        <dl data-property="型号" class="property-sibling-item">
+                            <dt class="vm-metatit">
+                                型&nbsp&nbsp&nbsp&nbsp号
+                            </dt>
+                            <dd >
+                                <a href="javascript:;">型号一</a>
+                                <a href="javascript:;">型号二</a>
+                                <a href="javascript:;">型号三</a>
+                                <a href="javascript:;">型号四</a>
+                                <a href="javascript:;">型号五</a>
+                                <a href="javascript:;">型号六</a>
+                            </dd>
+                        </dl>
+                </div>
+                <!-- 商品购买数量 -->
+                <dl class="property-buy-quantity">
+                    <dt class="vm-metatit">数&nbsp&nbsp&nbsp&nbsp量
+                    </dt>
+                    <dd class="clearfix">
+                        <div class="mod-control">
+                            <a title="减少" href="javascript:;" class="vm-minus disabled">-</a>
+                            <input type="text" value="1" id="J_quantity" data-max="5">
+                            <a title="增加" href="javascript:;" class="vm-plus">+</a>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
