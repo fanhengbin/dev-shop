@@ -1,0 +1,326 @@
+html{
+
+    background-color: rgb(240, 239, 239);
+}
+.main{
+
+    width:100%;
+
+    height:550px;
+
+}
+.main .box{
+
+    width:800px;
+
+    height:550px;
+
+    margin:0 auto;
+
+    background-color: #FFF;
+
+    box-shadow: 1px 2px 5px rgb(255, 255, 255),0px 1px 5px rgb(204, 200, 200) ;
+}
+.main .box .logo{
+
+    width:100%;
+
+    height:52px;
+
+}
+.main .box .logo img{
+    
+    width:136px;
+
+    height:52px;
+
+    position: relative;
+
+    left:325px;
+   
+}
+.main .box .box-top{
+ 
+    width:100%;
+
+    height:52px;
+
+    text-align:center;
+
+    font-size: 30px;
+
+    position: relative;
+
+    top:20px;
+
+    color:rgb(59, 57, 57);
+
+}
+.main .box .table2{
+
+    width: 350px;
+
+    height : 40px;
+
+    border-radius : 7px;
+
+    border:1px solid #aaa;
+
+    outline:none
+
+}
+.main .box .table1{
+
+    width: 260px;
+
+    height : 40px;
+
+    border-radius : 7px 0px 0px 7px;
+
+    border:1px solid #aaa;
+
+    outline:none
+
+}
+.main .box .telephone{
+
+    position: relative;
+
+    top:30px;
+
+    font-size:15px;
+
+    text-align: center;
+
+    padding:5px 0px;
+
+}
+.main .box .password{
+
+    font-size:15px;
+
+    position: relative;
+
+    top:30px;
+
+    text-align: center;
+
+    padding:5px 0px;
+
+}
+.main .box .confirm-password{
+
+    position: relative;
+
+    top:30px;
+
+    font-size:15px;
+
+    text-align: center;
+
+    padding:5px 0px;
+}
+.main .box .telephone-code{
+
+    position: relative;
+
+    top:30px;
+
+    font-size:15px;
+
+    text-align: center;
+
+    padding:5px 0px;
+
+
+}
+.main .box .telephone-code .get-code{
+
+    width: 100px;
+
+    height : 44px;
+
+    border-radius : 0px 7px 7px 0px;
+
+    border:1px solid #aaa;
+
+    border-left:1px solid #fff;
+
+    outline:none;
+
+    position: relative;
+
+    top:1px;
+
+    background-color: #fff;
+
+}
+/* .main .box .paragraph1{
+
+    position:relative;
+
+    font-size:8px;
+
+    color:#aaa;
+
+    left:300px;
+
+    top:20px;
+
+    padding:8px 0px;
+
+}
+.main .box .paragraph1:hover,.main .box .paragraph-1:hover{
+
+    color:black;
+
+} */
+.main .box .table2:hover,.main .box .table1:hover{
+
+    border:1px solid rgb(213, 28, 41);
+
+}
+.main .box .paragraph1-01{
+
+    font-size:8px;
+
+    color:red;
+
+    display:none;
+
+    position:relative;
+
+    top:20px;
+
+    left:220px;
+
+    padding:3px 0px;
+
+}
+.main .box .register{
+
+    width:350px;
+
+    height:45px;
+
+    outline:none;
+
+    background-color:rgb(213, 28, 41);
+
+    border:1px solid rgb(213, 28, 41);
+
+    color:#FFF;
+
+    font-size:15px;
+
+    position: relative;
+
+    left:225px;
+
+    top:64px;
+
+    border-radius : 7px;
+
+}
+.forget{
+
+    color:#aaa;
+
+    font-size:14px;
+
+    left:170px;
+
+    top:-20px;
+
+    text-decoration: none;
+
+    position: relative;
+
+}
+/* 网易注册页面的最下面部分 */
+.footer{
+
+    width:1000px;
+
+    height:40px;
+   
+    margin:0 auto;
+
+    position: relative;
+
+    top:20px;
+
+}
+.footer .footer-right-top{
+
+    float:left;
+
+    width:1000px;
+
+    height:24px;
+
+    position: relative;
+
+    left:300px;
+}
+.footer .footer-right-top a{
+
+    color:#aaa;
+
+    font-size:12px;
+
+    padding-left:10px;
+
+    text-decoration: none;
+
+}
+.footer .footer-right-bottom{
+
+    float:left;
+
+    width:1000px;
+
+    height:24px;
+
+    font-size:12px;
+    
+}
+.footer .footer-right-bottom .footer-right-bottom-last{
+
+    color:#aaa;
+    
+}
+.footer .footer-right-bottom-01 {
+
+    margin-left:190px;
+
+}
+.footer .footer-right-bottom a{
+
+    padding-left:8px;
+
+    color:#aaa;
+
+    font-size:12px;
+
+    text-decoration: none;
+    
+}
+.import{
+
+    color:red;
+
+    position: relative;
+
+    top:30px;
+
+    left:200px;
+}
+.start{
+
+    position: relative;
+
+    top:30px;
+
+    left:218px;
+}
