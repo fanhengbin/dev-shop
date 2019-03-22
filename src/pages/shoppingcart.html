@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <!-- 初始化样式 -->
+    <link rel="stylesheet" href="../assets/styles/reset.css">
+    <!-- 公共样式   -->
+    <link rel="stylesheet" href="../assets/styles/common.css">
+    <!-- 详情样式 -->
+    <link rel="stylesheet" href="../assets/styles/shoppingcart.css">
+    <!-- jq2.11 -->
+    <script src="../assets/javascript/jquery.min.js"></script>
+    <script src="../assets/javascript/shoppingcart.js"></script>
+</head>
+<body>
+    <div class="cart">
+        <!-- 购物车中部      -->
+        <div class="center">
+            <!-- 表格头部 -->
+            <table class="cart-header">
+
+                <tbody>
+                    <tr>
+                        <td class="cart-col-select">
+                            <!-- 全选按钮 -->
+                            <div class="cart-select-all JSelectAll">
+                                <div class="mz-checkbox"></div>
+                                <span class="cart-select-title">全选</span>
+                            </div>
+                        </td>
+                        <td class="cart-col-price">单价(元)</td>
+                        <td class="cart-col-number">数量</td>
+                        <td class="cart-col-total">小计(元)</td>
+                        <td class="cart-col-ctrl" id="J-cartHearCtrl">编辑</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="cart-merchant-list" id="merchantList">
+                <li class="cart-merchant">
+                    <!-- <div class="cart-merchant-header">
+                         <div class="cart-select-all">
+                            <div class="mz-checkbox"></div>
+                            <span class="cart-select-title">魅族</span>
+                        </div> -->
+                        <!-- 邮费 -->
+                        <!-- <div class="cart-select-fee unFreeShipping">
+                            <span class="cart-free">已免邮费</span>
+                            <div>
+                                <p>再买<span class="cart-shipping-price">80.00</span>元起，即可免运费 </p>
+                                <span class="fee-shipping-skip" data-mdesc="满包邮活动" data-mtype="click_store_cart_postage"
+                                    data-bh="click_store_cart_postage">立即凑单 &gt;</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <table class="cart-merchant-body">
+                        <!-- 商品 -->
+                        <tr class="cart-product">
+                            <td class="cart-col-select">
+                                <!-- 选中框 -->
+                                <div class="mz-checkbox"></div>
+                                <!-- 商品图片 -->
+                                <a href="" class="cart-product-link">
+                                    <img class="cart-product-img" alt="魅族 16th" src="../assets/images/goods.png">
+                                </a>
+                                <a href=""class="cart-product-link cart-product-info" >
+                                    <!-- 商品名称 -->
+                                    <p class="cart-product-item-name">魅族 16th</p>
+                                    <!-- 商品型号 -->
+                                    <p class="cart-product-desc">全网通公开版 远山白 6+64GB</p>
+                                </a>
+                            </td>
+                            <!-- 商品单价 -->
+                            <td class="cart-col-price">
+                                <p>
+                                    <span class="cart-product-price">￥2498.00</span>
+                                </p>
+                            </td>
+                            <!-- 商品购买数量 -->
+                            <td class="cart-col-number">
+                                <div class="mod-control">
+                                    <a title="减少" href="javascript:;" class="vm-minus" id="minus">-</a>
+                                    <input type="text" value="1">
+                                    <a title="增加" href="javascript:;" class="vm-plus" id="add">+</a>
+                                </div>
+                            </td>
+                            <!-- 该商品购买总价 -->
+                            <td class="cart-col-total">
+                                <span class="cart-product-price total main-goods">￥2498.00</span>
+                            </td>
+                            <!-- 删除单个商品按钮 -->
+                            <td class="cart-col-ctrl">
+                                <div class="cart-product-remove"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </div>
+        <!-- 购物车底部      -->
+        <div class="cart-footer">
+            <div class="mzcontainer">
+                <div class="cart-footer-left">
+                    <!-- 全选按钮 -->
+                    <div class="cart-select-all JSelectAll">
+                        <div class="mz-checkbox"></div>
+                        <span class="cart-select-title">全选</span>
+                    </div>
+                    <!-- 删除选中商品 -->
+                    <span class="cart-remove-selected" id="removeSelected">删除选中的商品</span>
+                    <!-- 商品购买信息 -->
+                    <span class="cart-footer-count">
+                        共<span class="cart-footer-num" id="totalCount">1</span>件商品，
+                        已选择<span class="cart-footer-num blue" id="totalSelectedCount">0</span>件
+                    </span>
+                </div>
+                <div class="cart-footer-right">
+                    <span class="cart-footer-sum">
+                        已优惠<span class="cart-footer-num red" id="totalDiscount">0.00</span>元，
+                        <!-- 购物车总价格 -->
+                        合计(不含运费)：<span class="cart-footer-total" id="totalPrice">0.00</span>
+                    </span>
+                    <!-- 结算按钮 -->
+                    <div class="mz-btn success to-order-btn" id="cartSubmit">去结算
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
