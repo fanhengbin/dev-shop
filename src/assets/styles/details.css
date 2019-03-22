@@ -1,6 +1,10 @@
+.main {
+    height: 710px;
+}
 .container {
     width: 1240px;
-    background-color: pink;
+    height: 100%;
+    /* background-color: pink; */
 }
 .container .preview {
     width: 560px;
@@ -71,6 +75,13 @@
     overflow: hidden;
     padding-left: 10px;
 }
+.property-sell-price .mod-original {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
 .property-sell-price .mod-price small {
     font-size: 24px;
     font-family: arial;
@@ -133,7 +144,7 @@
     line-height: 42px;
     color: #8c8c8c;
 }
-.property-sibling-item dd {
+.property-sibling-item dd,.property-buy dd {
     float: left;
     width: 565px;
     overflow: hidden;
@@ -144,17 +155,26 @@
     float: left;
     width: 176px;
     margin: 0 10px 10px 0;
-    background-color: #fff;
     white-space: nowrap;
     line-height: 40px;
     border: 1px solid #BFBFBF;
     border-radius: 2px;
+    background-color: #fff;
     color: #595959;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
 }
 .property-buy-quantity {
+    margin-bottom: 45px;
+}
+.property-buy .mod-control {
+    position: relative;
+    height: 40px;
+    width: 122px;
+    overflow: hidden;
+    margin-right: 30px;
+    float: left;
     margin-bottom: 45px;
 }
 .property-buy .mod-control a {
@@ -171,6 +191,9 @@
     color: #000;
     background: #f7f7f7;
 }
+.property-buy .mod-control .vm-minus {
+    right: 90px;
+}
 .property-buy .mod-control input {
     position: absolute;
     top: 0;
@@ -184,12 +207,94 @@
     color: #595959;
     border: 1px solid #dedede;
 }
-.property-buy .mod-control {
-    position: relative;
-    z-index: 1;
-    height: 40px;
-    width: 122px;
+.property-buy .property-buy-action {
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.btn-primary,.btn-empty {
+    color: #fff;
+    background-color: #27b3ff;
+    padding: 15px 0;
+    width: 208px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 20px!important;
+    border-radius: 3px;
+    text-align: center;
+}
+.btn-empty {
+    color: #27b3ff;
+    border: 1px solid #27B3FF;
+    background-color: #fff;
+}
+.simple {
+    background: #f4f4f4;
+    padding-bottom: 60px;
+    margin-top: 60px;
+}
+.simple-hd {
+    font-size: 24px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.detail-recommend {
+    background: #f4f4f4;
     overflow: hidden;
-    margin-right: 30px;
+}
+.detail-recommend-hd {
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+.detail-recommend-hd .mod-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
     float: left;
+}
+.detail-recommend-slider {
+    overflow: hidden;
+    height: 338px;
+    margin-bottom: 60px;
+}
+.detail-recommend-slider-wrap {
+    margin-right: -100px;
+    width: 100%;
+}
+.detail-rs-item {
+    position: relative;
+    float: left;
+    height: 338px;
+    width: 280px;
+    margin-right: 40px;
+    background: #fff;
+    display: block;
+}
+.detail-rs-item-wrap {
+    display: block;
+    padding: 30px 10px 5px;
+    text-align: center;
+}
+.detail-rs-item-wrap .mod-desc {
+    margin-top: 26px;
+}
+.detail-rs-item-wrap .mod-desc .vm-title {
+    font-size: 14px;
+    color: #333;
+}
+.detail-rs-item-wrap .mod-desc .vm-subtitle {
+    font-size: 12px;
+    color: #999;
+    margin-top: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detail-rs-item-wrap .mod-desc .vm-price {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #e02b41;
+}
+.detail-rs-item-wrap .mod-desc .vm-price-text {
+    color: #e02b41;
+    padding-right: 2px;
+    font-size: 16px;
 }

@@ -13,26 +13,30 @@
     <link rel="stylesheet" href="../assets/styles/details.css">
     <!-- jq2.11 -->
     <script src="../assets/javascript/jquery.min.js"></script>
+    <script src="../assets/javascript/details.js"></script>
 </head>
 <body>
-    <div class="main">
+    <!-- 商品主图、基础信息 -->
+    <div class="main clearfix">
         <div class="container center">
             <div class="preview fl">
+                <!-- 商品主图 -->
                 <div class="preview-booth">
                     <a href="javascript:;">
                         <img src="../assets/images/details.jpg" alt="" height="560px" width="560px">
                     </a>
                 </div>
+                <!-- 商品小图 -->
                 <ul class="preview-thumb clearfix">
                     <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>
                     <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>
                     <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>
                     <li><a href="javascript:;"><img src="../assets/images/detailsfooter.jpg" alt=""></a></li>                
                 </ul>
-                <div class="preview-action">
+                <!-- <div class="preview-action">
                     <a href=""><i></i>收藏</a>
                     <a href=""><i></i>对比</a>
-                </div>
+                </div> -->
             </div>
             <div class="property fl">
                 <!-- 商品名称、特点简介 -->
@@ -43,14 +47,15 @@
                 <!-- 商品价格+加够 -->
                 <div class="property-sell">
                     <div class="property-sell-price">
-                        <div class="mod-price">
+                        <div class="mod-price fl">
                             <small>¥</small>
                             <!-- 价格 -->
-                            <span  class="vm-money">9999.00</span>
+                            <span class="vm-money">9999.00</span>
                         </div>
+                        <div class="mod-original fl">¥ 899999.00</div>
                     </div>
                     <!-- 优惠活动 -->
-                    <dl class="property-sell-morebuy" >
+                    <!-- <dl class="property-sell-morebuy" >
                         <dt class="vm-entry">
                             <span>加价购</span>
                         </dt>
@@ -60,7 +65,7 @@
                             </span>
                             <a class="vm-more"  href="#">立即加购 &gt;</a>
                         </dd>
-                    </dl>
+                    </dl> -->
                 </div>
                 <!-- 型号 -->
                 <div class="property-sibling">
@@ -68,7 +73,7 @@
                         <dt class="vm-metatit">
                             型&nbsp&nbsp&nbsp&nbsp号
                         </dt>
-                        <dd >
+                        <dd>
                             <a href="javascript:;">型号一</a>
                             <a href="javascript:;">型号二</a>
                             <a href="javascript:;">型号三</a>
@@ -84,7 +89,7 @@
                             <dt class="vm-metatit">
                                 型&nbsp&nbsp&nbsp&nbsp号
                             </dt>
-                            <dd >
+                            <dd>
                                 <a href="javascript:;">型号一</a>
                                 <a href="javascript:;">型号二</a>
                                 <a href="javascript:;">型号三</a>
@@ -100,7 +105,7 @@
                             <dt class="vm-metatit">
                                 型&nbsp&nbsp&nbsp&nbsp号
                             </dt>
-                            <dd >
+                            <dd>
                                 <a href="javascript:;">型号一</a>
                                 <a href="javascript:;">型号二</a>
                                 <a href="javascript:;">型号三</a>
@@ -111,19 +116,115 @@
                         </dl>
                 </div>
                 <!-- 商品购买数量 -->
-                <dl class="property-buy-quantity">
-                    <dt class="vm-metatit">数&nbsp&nbsp&nbsp&nbsp量
-                    </dt>
-                    <dd class="clearfix">
-                        <div class="mod-control">
-                            <a title="减少" href="javascript:;" class="vm-minus disabled">-</a>
-                            <input type="text" value="1" id="J_quantity" data-max="5">
-                            <a title="增加" href="javascript:;" class="vm-plus">+</a>
-                        </div>
-                    </dd>
-                </dl>
+                <div class="property-buy">
+                    <dl class="property-buy-quantity">
+                        <dt class="vm-metatit">数&nbsp&nbsp&nbsp&nbsp量
+                        </dt>
+                        <dd>
+                            <div class="mod-control">
+                                <a title="减少" href="javascript:;" class="vm-minus" id="minus">-</a>
+                                <input type="text" value="1">
+                                <a title="增加" href="javascript:;" class="vm-plus" id="add">+</a>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- 加入购物车、立即购买 -->
+                    <div class="property-buy-action">
+                        <a href="javascript:;" class="btn-primary" style="display: inline-block;">立即购买</a>
+                        <a href="javascript:;" class="btn-empty" style="display: inline-block;"><i></i>加入购物车</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- 商品详细介绍 -->
+    <section class="simple">
+        <div class="container center">
+            <div class="simple-hd">
+                商品详情
+            </div>
+            <div class="simple-bd container">
+                <div class="introduce">
+                    <p>商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍</p>
+                    <p>商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍</p>
+                    <p>商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍</p>
+                    <p>商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍商品详细介绍</p>
+                    <img alt="" src="../assets/images/details.jpg"  height="560px" width="560px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 底部推荐 -->
+    <section class="detail-recommend">
+            <div class="detail-recommend-hd center">
+              <h2 class="mod-title">为您推荐</h2>
+            </div>
+            <div class="detail-recommend-slider center">             
+            <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                <ul class="detail-recommend-slider-wrap" style="width: 1000%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">                
+                <li class="detail-rs-item">
+                  <a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="">
+                    <div class="mod-pic">
+                      <img class="lazy" src="../assets/images/recommend.png" width="180" height="180" draggable="false">
+                    </div>
+                    <div class="mod-desc">
+                      <h4 class="vm-title">魅族 X8 高透保护膜</h4>
+                      <h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率 助双眼捕捉每一颗像素的色彩</h6>
+                      <p class="vm-price">
+                          <span>¥</span>
+                          <span class="vm-price-text">19</span>
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="detail-rs-item">
+                        <a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="">
+                          <div class="mod-pic">
+                            <img class="lazy" src="../assets/images/recommend.png" width="180" height="180" draggable="false">
+                          </div>
+                          <div class="mod-desc">
+                            <h4 class="vm-title">魅族 X8 高透保护膜</h4>
+                            <h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率 助双眼捕捉每一颗像素的色彩</h6>
+                            <p class="vm-price">
+                                <span>¥</span>
+                                <span class="vm-price-text">19</span>
+                            </p>
+                          </div>
+                        </a>
+                </li>
+                <li class="detail-rs-item" >
+                        <a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="">
+                          <div class="mod-pic">
+                            <img class="lazy" src="../assets/images/recommend.png" width="180" height="180" draggable="false">
+                          </div>
+                          <div class="mod-desc">
+                            <h4 class="vm-title">魅族 X8 高透保护膜</h4>
+                            <h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率 助双眼捕捉每一颗像素的色彩</h6>
+                            <p class="vm-price">
+                                <span>¥</span>
+                                <span class="vm-price-text">19</span>
+                            </p>
+                          </div>
+                        </a>
+                </li>
+                <li class="detail-rs-item">
+                        <a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="">
+                          <div class="mod-pic">
+                            <img class="lazy" src="../assets/images/recommend.png" width="180" height="180" draggable="false">
+                          </div>
+                          <div class="mod-desc">
+                            <h4 class="vm-title">魅族 X8 高透保护膜</h4>
+                            <h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率 助双眼捕捉每一颗像素的色彩</h6>
+                            <p class="vm-price">
+                                <span>¥</span>
+                                <span class="vm-price-text">19</span>
+                            </p>
+                          </div>
+                        </a>
+                </li>                             
+              </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
