@@ -43,10 +43,7 @@
 
     overflow: hidden;
 
-    height: 174px;
-
-    transition: height .8s
-
+    transition: height .8s;
 }
 .order .main .order-address .order-address-list .order-address-check{
 
@@ -254,7 +251,7 @@
 .order .main .order-product .shoppingCart a{
 
     color:#FFF;
-    
+
 }
 .order .main .order-product .product-title{
 
