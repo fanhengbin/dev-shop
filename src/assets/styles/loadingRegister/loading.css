@@ -343,6 +343,10 @@ a{
 
     height:50px;
 
+    font-size:17px;
+
+    font-weight: bold;
+
     position: relative;
 
     line-height:48px;
@@ -358,6 +362,8 @@ a{
     border-radius : 4px;
 
     background-color:rgb(213, 28, 41);
+
+    border:1px solid rgb(213, 28, 41);
 
 }
 .main .main-inner .box .box-middle .load-01:hover{
