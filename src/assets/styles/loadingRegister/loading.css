@@ -257,7 +257,7 @@ a{
 } */
 .main .main-inner .box .box-middle .password{
    
-    width: 280px;
+    width: 200px;
 
     height : 35px;
 
@@ -273,11 +273,37 @@ a{
 
     border:1px solid #aaa;
 
-    border-radius:7px;
+    border-radius : 7px 0px 0px 7px;
 
     position: relative;
  
 } 
+.main .main-inner .box .box-middle .password .get-code{
+
+    width: 80px;
+
+    height : 37px;
+
+    border-radius : 0px 7px 7px 0px;
+
+    border:1px solid #aaa;
+
+    border-left:1px solid #fff;
+
+    outline:none;
+
+    position: relative;
+
+    top:-35px;
+
+    left:81px;
+
+    float:right;
+
+    background-color: #fff;
+
+    font-size:10px;
+}
 .main .main-inner .box .box-middle .freeload{
 
     width: 350px;
@@ -291,7 +317,7 @@ a{
 }
 .table2{
 
-    width: 200px;
+    width: 163px;
 
     height : 30px;
 
@@ -470,8 +496,6 @@ a{
 .footer .footer-right-top{
 
     float:left;
-
-    width:1000px;
 
     height:24px;
 

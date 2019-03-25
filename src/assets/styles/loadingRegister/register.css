@@ -51,7 +51,7 @@ html{
 
     position: relative;
 
-    top:20px;
+    top:40px;
 
     color:rgb(59, 57, 57);
 
@@ -86,7 +86,7 @@ html{
 
     position: relative;
 
-    top:30px;
+    top:60px;
 
     font-size:15px;
 
@@ -94,37 +94,12 @@ html{
 
     padding:5px 0px;
 
-}
-.main .box .password{
-
-    font-size:15px;
-
-    position: relative;
-
-    top:30px;
-
-    text-align: center;
-
-    padding:5px 0px;
-
-}
-.main .box .confirm-password{
-
-    position: relative;
-
-    top:30px;
-
-    font-size:15px;
-
-    text-align: center;
-
-    padding:5px 0px;
 }
 .main .box .telephone-code{
 
     position: relative;
 
-    top:30px;
+    top:90px;
 
     font-size:15px;
 
@@ -190,7 +165,7 @@ html{
 
     position:relative;
 
-    top:20px;
+    top:50px;
 
     left:220px;
 
@@ -199,9 +174,9 @@ html{
 }
 .main .box .register{
 
-    width:350px;
+    width:365px;
 
-    height:45px;
+    height:48px;
 
     outline:none;
 
@@ -215,9 +190,9 @@ html{
 
     position: relative;
 
-    left:225px;
+    left:218px;
 
-    top:64px;
+    top:152px;
 
     border-radius : 7px;
 
@@ -254,8 +229,6 @@ html{
 .footer .footer-right-top{
 
     float:left;
-
-    width:1000px;
 
     height:24px;
 
@@ -312,7 +285,7 @@ html{
 
     position: relative;
 
-    top:30px;
+    top:68px;
 
     left:200px;
 }
@@ -320,7 +293,25 @@ html{
 
     position: relative;
 
-    top:30px;
+    top:64px;
+
+    left:218px;
+}
+.import-other{
+
+    color:red;
+
+    position: relative;
+
+    top:100px;
+
+    left:200px;
+}
+.start-other{
+
+    position: relative;
+
+    top:95px;
 
     left:218px;
 }

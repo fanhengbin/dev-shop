@@ -1,0 +1,1055 @@
+.order{
+    /* max-width: 1240px;
+    height:1200px;
+    border:1px solid black;
+    margin:0 auto; */
+    background-color: #F4F6FA
+}
+.order .main{
+
+    max-width: 1240px;
+
+    margin:0 auto;
+
+    background-color: #FFF;
+
+    position: relative;
+
+    top:15px;
+
+    box-sizing: border-box
+}
+.order .main .order-address{
+
+    position: relative;
+
+    padding: 0 24px;
+
+    margin-top: 10px;
+
+}
+.order .main .order-address .order-address-title{
+
+    padding-top: 32px;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+}
+.order .main .order-address .order-address-list{
+    
+    margin-top: 16px;
+
+    overflow: hidden;
+
+    height: 174px;
+
+    transition: height .8s
+
+}
+.order .main .order-address .order-address-list .order-address-check{
+
+    float: left;
+
+    position: relative;
+
+    width: 288px;
+
+    height: 148px;
+
+    border: 1px solid #EFEFEF;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    padding: 0 16px;
+
+    margin: 0 0 30px 12px;
+
+    transition: border-color .8s;
+
+}
+.order .main .order-address .order-address-list .order-address-check.checked,.order .main .order-address .order-address-list .order-address-check:hover{
+
+
+    border: 1px solid rgb(213, 28, 41);
+
+    color:rgb(213, 28, 41);
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-top{
+
+    font-size: 12px;
+
+    padding-top: 16px;
+
+    color: #262626;
+
+    height: 45px;
+
+    border-bottom: 1px solid #EFEFEF;
+
+    font-weight: bolder;
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-top .order-address-check-name {
+
+    float: left; 
+
+    width: 125px;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    word-break: keep-all;
+
+    text-overflow: ellipsis
+    
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-top .order-address-check-phone{
+
+    float: right
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-content{
+
+    padding-top: 10px;
+
+    word-break: break-all;
+
+    word-wrap: break-word;
+
+    font-size: 12px;
+
+    max-height: 70px;
+
+    overflow: hidden;
+
+    color: #595959
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-checked{
+    /* display: none; */
+
+    position: absolute;
+
+    overflow: hidden;
+
+    right: 0;
+
+    bottom: 0;
+
+    width: 20px;
+
+    height: 20px;
+
+    color:rgb(213, 28, 41);
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-ctrl{
+
+    position: absolute;
+
+    display: none;
+
+    bottom: -20px;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 20px;
+
+    font-size: 14px;
+
+    padding-top: 5px;
+
+    color: rgb(213, 28, 41)
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-ctrl .delete{
+
+    margin-right: 10px;
+
+    float: right;
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-check-ctrl .edit{
+
+    margin-right: 10px;
+
+    float: right;
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-icon {
+
+    position: relative;
+
+    width: 30px;
+
+    height: 30px;
+
+    /* border-radius: 100%;
+
+    color: #BDBDBD; */
+
+    transition: background-color .8s;
+
+    margin-left: 125px;
+
+    margin-top: 50px;
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-icon .iconfont{
+
+    color: #BDBDBD;
+
+    font-size:30px;
+
+    line-height:30px;
+
+    text-align: center;
+
+}
+.order .main .order-address .order-address-list .order-address-check .order-address-add-text {
+
+    margin-top: 8px;
+
+    font-size: 12px;
+
+    color: #999;
+
+    text-align: center;
+
+    transition: color .8s;
+
+}
+.order .main .order-product{
+
+    padding: 0 24px 30px;
+
+    background-color: #FFF
+
+}
+.order .main .order-product .shoppingCart{
+
+    width:100px;
+
+    height:40px;
+
+    background-color: rgb(213, 28, 41);
+
+    border:1px solid rgb(213, 28, 41);
+
+    color:#FFF;
+
+    font-size:14px;
+
+    position: relative;
+
+    left:980px;
+
+    top:0px;
+
+}
+.order .main .order-product .product-title{
+
+    font-size: 18px;
+
+    color: #262626;
+
+    padding: 25px 0 16px;
+
+    font-weight: 500;
+
+}
+.order .main .order-product .product-list .table{
+
+    border: 1px solid #EFEFEF;
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+}
+.order .main .order-product .product-list .table .thead{
+
+    font-size: 12px;
+
+    color: rgba(51,51,51,.6);
+
+    background-color: #F6F8F8;
+
+    border-bottom: 1px solid #EFEFEF;
+
+}
+.order .main .order-product .product-list .table .thead tr{
+
+    height:50px;
+
+}
+.order .main .order-product .product-list .table .thead .name{
+
+    width: 500px;
+
+    text-align: left;
+
+    line-height: 50px;
+
+}
+.order .main .order-product .product-list .table .thead .name .detail{
+
+    text-align: left;
+
+    position: relative;
+
+    font-weight: 400;
+
+    color: #262626;
+
+    font-size: 14px;
+
+    margin-left: 24px;
+
+    cursor: pointer;
+
+}
+.order .main .order-product .product-list .table .thead .price{
+
+    text-align: center;
+
+    width: 228px;
+
+    line-height: 50px;
+
+}
+.order .main .order-product .product-list .table .thead .total{
+
+    text-align: center;
+
+    width: 160px;
+
+    line-height: 50px;
+
+}
+.order .main .order-product .product-list .table .thead .num{
+
+    text-align: center;
+
+    width: 140px;
+
+    line-height: 50px;
+
+}
+.order .main .order-product .product-list .table .thead .express{
+
+    text-align: center;
+
+    padding-left: 16px;
+
+    width: 192px;
+
+    line-height: 50px;
+
+}
+.order .main .order-product .product-list .table .tbody{
+
+    display: table-row-group;
+
+    vertical-align: middle;
+
+    border-color: inherit;
+
+}
+.order .main .order-product .product-list .table .tbody tr{
+
+    height: 150px;
+
+    border-top: 1px solid #EFEFEF;
+
+    border-bottom: 1px solid #EFEFEF;
+
+    color:#aaa;
+
+
+}
+.order .main .order-product .product-list .table .tbody .name{
+
+    width: 500px;
+
+    text-align: left;
+
+}
+.order .main .order-product .product-list .table .tbody .name img{
+
+    vertical-align: middle;
+
+    height: 100px;
+
+    width: 100px;
+
+    margin-left: 24px;
+
+    margin-right: 16px
+
+}
+.order .main .order-product .product-list .table .tbody .name .detail{
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    font-size: 16px;
+
+    color: #262626;
+
+    width: 300px;
+
+}
+.order .main .order-product .product-list .table .tbody .name .detail .name{
+
+    max-width: 300px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+
+}
+.order .main .order-product .product-list .table .tbody .name .detail .product-detail{
+
+    margin-top: 10px;
+
+    font-size: 14px;
+
+    color: #999;
+
+}
+.order .main .order-product .product-list .table .tbody .price{
+
+    text-align: center;
+
+    width: 228px;
+
+    line-height: 150px;
+
+}
+.order .main .order-product .product-list .table .tbody .total{
+
+    text-align: center;
+
+    width: 160px;
+
+    color:rgb(213, 28, 41);
+
+    line-height: 150px;
+
+}
+.order .main .order-product .product-list .table .tbody .num{
+
+    text-align: center;
+
+    width: 140px;
+
+    line-height: 50px;
+
+}
+.order .main .order-product .product-list .table .tbody .express{
+
+    text-align: center;
+
+    padding-left: 16px;
+
+    width: 192px;
+
+    border-left: 1px solid #EFEFEF;
+
+    color: rgb(213, 28, 41);
+    
+    display: table-cell;
+
+    vertical-align: middle;
+}
+.order .main .order-product .product-list .table .tfoot{
+
+    border-top: 1px solid #EFEFEF;
+
+    border-right: 1px solid #EFEFEF;
+
+    color: #666;
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-footer{
+
+    vertical-align: middle;
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-footer .info{
+
+    padding: 15px 0 15px 25px;
+
+    color: #595959;
+
+    font-size: 12px;
+
+    margin-left:100px;
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-footer .info .type{
+
+    font-size: 14px;
+
+    display: inline-block;
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-footer .info .invoice{
+
+    margin-top: 10px;
+
+    color: #8c8c8c
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-footer .product-total{
+
+    padding-right: 26px;
+
+    text-align: right;
+
+    font-size: 14px;
+
+    color: #666;
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-footer .product-total .price{
+
+    color:rgb(213, 28, 41);
+
+    font-size: 20px
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-remark{
+
+    overflow: hidden;
+
+    height: 46px;
+
+    border: 1px solid #EFEFEF;
+
+    
+}
+.order .main .order-product .product-list .table .tfoot .order-product-remark .title{
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    margin-left: 24px;
+
+    margin-top: 4px;
+
+    line-height: 46px;
+
+    font-size: 14px;
+
+    color: #999
+
+}
+.order .main .order-tatal{
+
+    overflow: hidden;
+
+    padding: 0 24px 30px;
+
+    color: #898989;
+
+    background-color: #FFF;
+
+}
+.order .main .order-tatal .order-tatal-pay{
+
+    overflow: hidden;
+
+    margin-bottom: 30px
+
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-header{
+
+    color: #333;
+
+    font-size: 18px;
+
+    padding: 10px 0 16px;
+
+    font-weight: 500
+
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content{
+
+    padding: 40px 26px 0;
+
+    border: 1px solid #efefef
+
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row{
+
+    width:1138px;
+
+    height:56px;
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .title{
+
+    float: left;
+
+    width: 66px;
+
+    line-height: 40px;
+
+    font-size: 16px;
+
+    margin-right: 30px;
+
+    color: #595959;
+
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .list{
+
+    float: left;
+
+    width: 1020px;
+
+    margin-right: -200px
+
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .list .lable{
+
+    position: relative;
+
+    float: left;
+
+    margin-right: 36px;
+
+    margin-bottom: 16px;
+
+    cursor: pointer
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .list .lable .radio{
+
+    position: relative;
+
+    margin-right: 12px;
+
+    top:-3px;
+
+    background-color:#fff;
+
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .list .lable .iconfont.icon-weixinzhifu{
+
+   font-size:35px;
+
+   color:green;
+
+}
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .list .lable .iconfont.icon-iconzhi01{
+
+    font-size:35px;
+    
+    color:blue;
+    
+}
+.order .main .order-tatal .order-tatal-content{
+
+    float: right;
+
+    width: 318px;
+
+}
+.order .main .order-tatal .order-tatal-content .line{
+
+    width: 100%;
+
+    height: 1px;
+
+    background-color: #EFEFEF;
+
+    margin-bottom: 20px
+
+}
+.order .main .order-tatal .order-tatal-content .order-tatal-row{
+
+    padding: 0 2px;
+
+    margin-bottom: 12px;
+
+}
+.order .main .order-tatal .order-tatal-content .order-tatal-row .order-tatal-price{
+
+    float: right;
+
+}
+.order .main .order-tatal .order-tatal-content .order-tatal-row .order-tatal-price.total{
+
+    color: rgb(213, 28, 41);
+
+    font-size: 20px;
+    
+    font-weight: bold;
+
+    float: right;
+    
+}
+.order .main .order-tatal .order-tatal-content .order-tatal-row .order-tatal-price.confirm{
+
+    font-size: 0;
+
+    margin-bottom: 5px;
+
+    padding-right: 0
+}
+.order .main .order-tatal .order-tatal-content .order-tatal-row .money{
+
+    float:right;
+
+    width:100px;
+
+    height:40px;
+
+    background-color: rgb(213, 28, 41);
+
+    border:1px solid rgb(213, 28, 41);
+
+    color:#FFF;
+
+    font-size:14px;
+}
+.order .main .order-tatal .order-tatal-content .more{
+
+    width: 100%;
+
+    height:30px;
+
+    margin-top:90px;
+}
+/* 弹窗部分 */
+#open_btn {
+
+    background: #FFF;
+}
+#background {
+
+    display: none;
+
+    position: fixed;
+
+    left: 0;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.5);
+
+}
+#div1 {
+
+    background-color:#FFF;
+
+    width: 1000px;
+
+    z-index: 1;
+
+    margin: 12% auto;
+
+    overflow: auto;
+
+    position: relative;
+
+    top:-80px;
+
+}
+#div1 #close {
+
+   border-bottom:1px solid rgb(238, 234, 234);
+}
+#div1 #close .title{
+
+   text-align: center;
+
+   color:black;
+
+   padding: 20px 0px;
+
+   font-size:20px;
+
+   font-weight: bold;
+}
+#div1 #close #close-button {
+
+    float: right;
+
+    font-size: 35px;
+
+    position: relative;
+
+    top: -48px;
+
+    color: #aaa;
+}
+#div2 {
+    margin: auto;
+
+    height: 400px;
+
+    padding: 0 20px;
+
+}
+#div2 .top{
+
+    width:100%;
+
+    height:80px;
+
+    position: relative;
+
+    top:30px;
+
+}
+#div2 .top .top-left{
+
+    width:50%;
+
+    height:100%;
+
+}
+#div2 .top .top-left span{
+
+    position: relative;
+
+    top:20px;
+
+    left:57px;
+
+    font-size: 15px;
+
+}
+#div2 .top .top-left .name{
+
+    outline: none;
+
+    width:285px;
+
+    height:40px;
+
+    border:1px solid #eeeeee;
+
+    position: relative;
+
+    top:18px;
+
+    left:53px;
+}
+#div2 .top .top-right{
+
+    width:50%;
+
+    height:100%;
+
+    position: relative;
+
+    top:-82px;
+
+    left:444px;
+}
+#div2 .top .top-right span{
+    
+    position: relative;
+
+    top:20px;
+
+    font-size: 15px;
+
+    left:-11px;
+}
+#div2 .top .top-right .number{
+
+    outline: none;
+
+    width:310px;
+
+    height:40px;
+
+    border:1px solid #eeeeee;
+
+    position: relative;
+
+    top:18px;
+
+    left:-13px;
+
+}
+#div2 .middle{
+
+    width:100%;
+
+    height:80px;
+
+    position: relative;
+
+    top:30px
+
+}
+#div2 .middle ul{
+
+    width:100%;
+
+    height:80px;
+
+    list-style: none;
+    
+}
+#div2 .middle ul li{
+
+    float:left;
+
+    width:17%;
+
+    height:100%;
+
+    padding: 0  10px;
+
+    line-height: 80px;
+
+    position: relative;
+
+    left:40px;
+  
+}
+#div2 .middle ul li span{
+
+    position: relative;
+
+    left:6px;
+
+    font-size: 15px;
+}
+#div2 .middle ul li #sel{
+
+    outline: none;
+
+    width:170px;
+
+    height:40px;
+
+    position: relative;
+
+    border:1px solid #eeeeee;
+
+    left:-99px;
+
+
+}
+#div2 .bottom{
+
+    width:100%;
+
+    height:80px;
+
+    position: relative;
+
+    top:30px
+
+}
+#div2 .bottom span{
+
+    line-height: 80px;
+
+    font-size:15px;
+
+    position: relative;
+
+    left:72px;
+}
+#div2 .bottom .detail{
+
+    line-height: 80px;
+
+    outline: none;
+
+    width:715px;
+
+    height:40px;
+
+    border:1px solid #eeeeee;
+
+    position: relative;
+
+    left:70px;
+
+}
+#div2 .button-two{
+
+    width:100%;
+
+    height:80px;
+
+    position: relative;
+
+    top:30px;
+
+    text-align: center;
+}
+#div2 .button-two .confirm{
+
+    outline: none;
+
+    border:1px solid #eeeeee;
+
+    width:100px;
+
+    height:50px;
+
+    border-radius: 7%;
+
+    color:#FFF;
+
+    background-color: #01C3F5;
+
+    font-size: 15px;
+ 
+    position: relative;
+
+    top:40px;
+
+    left:-50px;
+
+}
+#div2 .button-two .cancel{
+
+    outline: none;
+
+    width:100px;
+
+    height:50px;
+
+    border-radius: 7%;
+
+    position: relative;
+
+    top:40px;
+
+    left:50px;
+
+    color:#aaa;
+
+    font-size: 15px;
+
+    background-color: #eeeeee;
+
+    border:1px solid #eeeeee;
+
+}
