@@ -221,6 +221,7 @@
     margin-right: 20px!important;
     border-radius: 3px;
     text-align: center;
+    display: inline-block;
 }
 .btn-empty {
     color: #27b3ff;
@@ -237,6 +238,7 @@
     padding-top: 45px;
     padding-bottom: 20px;
 }
+/* 推荐商品 */
 .detail-recommend {
     background: #f4f4f4;
     overflow: hidden;
