@@ -1,4 +1,4 @@
-jQuery(function ($) {
+$(function(){
 	var index = 0;
 	//轮播图向左
 	$('.slide-left').click(function () {
