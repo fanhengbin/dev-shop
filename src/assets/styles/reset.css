@@ -47,6 +47,7 @@ border-spacing: 0;
 }
 a {
     text-decoration: none;
+    font-style: normal;
 }
 em {
     font-style: normal;
