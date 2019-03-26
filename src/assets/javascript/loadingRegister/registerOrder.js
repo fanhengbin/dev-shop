@@ -43,7 +43,7 @@ $(document).ready(function () {
             //    将值存到缓存区
             window.localStorage.setItem("account", phonenumber);
             //    清空所有信息
-            $('#phone1').val("");
+            // $('#phone1').val("");
         } else {
             $('#phone-1').hide();
             $('#phone-1-01').show();
