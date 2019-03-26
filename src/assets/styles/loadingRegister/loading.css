@@ -257,13 +257,13 @@ a{
 } */
 .main .main-inner .box .box-middle .password{
    
-    width: 280px;
+    width: 200px;
 
     height : 35px;
 
     font-size:16px;
 
-    top:30px;
+    top:40px;
 
     left: 33px;
 
@@ -273,11 +273,37 @@ a{
 
     border:1px solid #aaa;
 
-    border-radius:7px;
+    border-radius : 7px 0px 0px 7px;
 
     position: relative;
  
 } 
+.main .main-inner .box .box-middle .password .get-code{
+
+    width: 80px;
+
+    height : 37px;
+
+    border-radius : 0px 7px 7px 0px;
+
+    border:1px solid #aaa;
+
+    border-left:1px solid #fff;
+
+    outline:none;
+
+    position: relative;
+
+    top:-35px;
+
+    left:81px;
+
+    float:right;
+
+    background-color: #fff;
+
+    font-size:10px;
+}
 .main .main-inner .box .box-middle .freeload{
 
     width: 350px;
@@ -291,7 +317,7 @@ a{
 }
 .table2{
 
-    width: 200px;
+    width: 163px;
 
     height : 30px;
 
@@ -317,6 +343,10 @@ a{
 
     height:50px;
 
+    font-size:17px;
+
+    font-weight: bold;
+
     position: relative;
 
     line-height:48px;
@@ -332,6 +362,8 @@ a{
     border-radius : 4px;
 
     background-color:rgb(213, 28, 41);
+
+    border:1px solid rgb(213, 28, 41);
 
 }
 .main .main-inner .box .box-middle .load-01:hover{
@@ -431,7 +463,7 @@ a{
 
     left:50px;
 
-    top:-20px;
+    top:-10px;
 
     text-decoration: none;
 
@@ -446,7 +478,7 @@ a{
 
     left:170px;
 
-    top:-20px;
+    top:-10px;
 
     text-decoration: none;
 
@@ -470,8 +502,6 @@ a{
 .footer .footer-right-top{
 
     float:left;
-
-    width:1000px;
 
     height:24px;
 
