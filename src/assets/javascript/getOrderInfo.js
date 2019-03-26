@@ -23,7 +23,7 @@ $(document).ready(function(){
         var index1 = $('.delete').index(this);
         $('.order-address-check.checked').eq(index1).remove();
     });
-    var div = document.getElementById('background');  
+    var div = document.getElementById('background'); 
     $('.order-address-check.add').click(function(){
         // div.style.display = "block";
         $('#background').css("display","block")
@@ -35,12 +35,21 @@ $(document).ready(function(){
     });
     $('#close-button').click(function(){
         div.style.display = "none";
+        $('.name').val("");
+        $('.number').val("");
+        $('.detail').val("");
     });
     $('.confirm').click(function(){
         div.style.display = "none";
+        $('.name').val("");
+        $('.number').val("");
+        $('.detail').val("");
     });
     $('.cancel').click(function(){
         div.style.display = "none";
+        $('.name').val("");
+        $('.number').val("");
+        $('.detail').val("");
     });
     window.onclick = function close(e) {
         if (e.target == div) {
