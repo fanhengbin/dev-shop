@@ -2,14 +2,14 @@ html{
 
     background-color: rgb(240, 239, 239);
 }
-.main{
+.main-register{
 
     width:100%;
 
     height:550px;
 
 }
-.main .box{
+.main-register .box{
 
     width:800px;
 
@@ -21,25 +21,25 @@ html{
 
     box-shadow: 1px 2px 5px rgb(255, 255, 255),0px 1px 5px rgb(204, 200, 200) ;
 }
-.main .box .logo{
+.main-register .box .logo{
 
     width:100%;
 
     height:52px;
 
 }
-.main .box .logo img{
+.main-register .box .logo img{
     
-    width:136px;
+    width:151px;
 
-    height:52px;
+    height:54px;
 
     position: relative;
 
-    left:325px;
+    left:319px;
    
 }
-.main .box .box-top{
+.main-register .box .box-top{
  
     width:100%;
 
@@ -56,7 +56,7 @@ html{
     color:rgb(59, 57, 57);
 
 }
-.main .box .table2{
+.main-register .box .table2{
 
     width: 350px;
 
@@ -69,7 +69,7 @@ html{
     outline:none
 
 }
-.main .box .table1{
+.main-register .box .table1{
 
     width: 260px;
 
@@ -82,7 +82,7 @@ html{
     outline:none
 
 }
-.main .box .telephone{
+.main-register .box .telephone{
 
     position: relative;
 
@@ -95,7 +95,7 @@ html{
     padding:5px 0px;
 
 }
-.main .box .telephone-code{
+.main-register .box .telephone-code{
 
     position: relative;
 
@@ -109,7 +109,7 @@ html{
 
 
 }
-.main .box .telephone-code .get-code{
+.main-register .box .telephone-code .get-code{
 
     width: 100px;
 
@@ -150,14 +150,14 @@ html{
     color:black;
 
 } */
-.main .box .table2:hover,.main .box .table1:hover{
+.main-register .box .table2:hover,.main-register .box .table1:hover{
 
     border:1px solid rgb(213, 28, 41);
 
 }
-.main .box .paragraph1-01{
+.main-register .box .paragraph1-01{
 
-    font-size:8px;
+    font-size:14px;
 
     color:red;
 
@@ -172,7 +172,7 @@ html{
     padding:3px 0px;
 
 }
-.main .box .register{
+.main-register .box .register{
 
     width:365px;
 
@@ -197,23 +197,44 @@ html{
     border-radius : 7px;
 
 }
-.forget{
+.main-register .box .import{
 
-    color:#aaa;
-
-    font-size:14px;
-
-    left:170px;
-
-    top:-20px;
-
-    text-decoration: none;
+    color:red;
 
     position: relative;
 
+    top:68px;
+
+    left:200px;
+}
+.main-register .box .start{
+
+    position: relative;
+
+    top:64px;
+
+    left:218px;
+}
+.main-register .box .import-other{
+
+    color:red;
+
+    position: relative;
+
+    top:100px;
+
+    left:200px;
+}
+.main-register .box .start-other{
+
+    position: relative;
+
+    top:95px;
+
+    left:218px;
 }
 /* 网易注册页面的最下面部分 */
-.footer{
+.footer-register{
 
     width:1000px;
 
@@ -226,7 +247,7 @@ html{
     top:20px;
 
 }
-.footer .footer-right-top{
+.footer-register .footer-right-top{
 
     float:left;
 
@@ -236,7 +257,7 @@ html{
 
     left:300px;
 }
-.footer .footer-right-top a{
+.footer-register .footer-right-top a{
 
     color:#aaa;
 
@@ -247,7 +268,7 @@ html{
     text-decoration: none;
 
 }
-.footer .footer-right-bottom{
+.footer-register .footer-right-bottom{
 
     float:left;
 
@@ -258,17 +279,17 @@ html{
     font-size:12px;
     
 }
-.footer .footer-right-bottom .footer-right-bottom-last{
+.footer-register .footer-right-bottom .footer-right-bottom-last{
 
     color:#aaa;
     
 }
-.footer .footer-right-bottom-01 {
+.footer-register .footer-right-bottom-01 {
 
     margin-left:190px;
 
 }
-.footer .footer-right-bottom a{
+.footer-register .footer-right-bottom a{
 
     padding-left:8px;
 
@@ -278,40 +299,4 @@ html{
 
     text-decoration: none;
     
-}
-.import{
-
-    color:red;
-
-    position: relative;
-
-    top:68px;
-
-    left:200px;
-}
-.start{
-
-    position: relative;
-
-    top:64px;
-
-    left:218px;
-}
-.import-other{
-
-    color:red;
-
-    position: relative;
-
-    top:100px;
-
-    left:200px;
-}
-.start-other{
-
-    position: relative;
-
-    top:95px;
-
-    left:218px;
 }

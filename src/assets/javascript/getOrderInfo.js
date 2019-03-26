@@ -3,6 +3,10 @@ $(document).ready(function(){
         var index3 = $('.order-address-check.checked').index(this);
         $('.order-address-check-ctrl').eq(index3).show();
     });
+    $('.order-address-check.checked').click(function(){
+        var index3 = $('.order-address-check.checked').index(this);
+        $('.order-address-check-checked').eq(index3).toggle();
+    });
     $('.order-address-check.checked').mouseout(function(){
         var index3 = $('.order-address-check.checked').index(this);
         $('.order-address-check-ctrl').eq(index3).hide();
@@ -30,6 +34,12 @@ $(document).ready(function(){
         $('#background').css("display","block")
     });
     $('#close-button').click(function(){
+        div.style.display = "none";
+    });
+    $('.confirm').click(function(){
+        div.style.display = "none";
+    });
+    $('.cancel').click(function(){
         div.style.display = "none";
     });
     window.onclick = function close(e) {
