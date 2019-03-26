@@ -1,6 +1,7 @@
 
 $(document).ready(function () {
     $(".get-code").click(function () {
+        $(".get-code").attr('disabled',"true")
         var time = 60;
         var timer = setInterval(function(){
             time--;
@@ -8,6 +9,7 @@ $(document).ready(function () {
             $(".get-code").text("(" + time + ") s 重发");
             if(time <= 0){
                 clearInterval(timer);
+                $('.get-code').removeAttr("disabled");
                 window.localStorage.removeItem('number-register');
                 $(".get-code").text("获取验证码");
             }
