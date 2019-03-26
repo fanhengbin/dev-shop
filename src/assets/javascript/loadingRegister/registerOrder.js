@@ -5,8 +5,8 @@ $(document).ready(function () {
         var timer = setInterval(function(){
             time--;
             window.localStorage.setItem("number-register",  time);
-            $(".get-code").text("（"+time+"s）重发");
-            if(time==0){
+            $(".get-code").text("(" + time + ") s 重发");
+            if(time <= 0){
                 clearInterval(timer);
                 window.localStorage.removeItem('number-register');
                 $(".get-code").text("获取验证码");

@@ -67,7 +67,7 @@ var num = window.localStorage.getItem("number-loading");
         var countdown=60;
         settime(obj);
         function settime(obj) {
-            if (num == 0) {
+            if (num <= 0) {
                 $(obj).attr("disabled",false);
                 $(obj).text("获取验证码");
                 window.localStorage.removeItem('number-loading');
