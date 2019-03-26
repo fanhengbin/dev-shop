@@ -24,6 +24,24 @@ $(function(){
 		$('.banner-slide li').eq(index).fadeIn().siblings().fadeOut();
 		$(this).addClass('current').siblings().removeClass('current');
 	});
+	function over(obj) {
+		obj.find('img').css({'width':'180px','height':'180px'});
+		obj.children().css('display','block');
+//					var next=obj.next();
+//					obj.children().css({'width':'','height':''});
+//					obj.children().css({'width':'180px','height':'180px'});
+//					next.css('display','block');
+				}
+				function out(obj) {
+					obj.find('img').css({'width':'200px','height':'245px'});
+					obj.find('div:first').siblings().css('display','none');
+				}
+				$('.detail-rs-item-wrap').mouseenter(function(){
+					over($(this));
+				});
+				$('.detail-rs-item-wrap').mouseleave(function(){
+					out($(this));
+				});
 });
 	//返回top
 	window.onscroll = function () {
