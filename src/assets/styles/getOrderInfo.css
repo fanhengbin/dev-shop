@@ -1,3 +1,4 @@
+/* 确认订单部分 */
 .order{
     /* max-width: 1240px;
     height:1200px;
@@ -19,6 +20,7 @@
 
     box-sizing: border-box
 }
+/* 地址部分 */
 .order .main .order-address{
 
     position: relative;
@@ -224,6 +226,7 @@
     transition: color .8s;
 
 }
+/* 产品信息部分 */
 .order .main .order-product{
 
     padding: 0 24px 30px;
@@ -559,6 +562,7 @@
     color: #999
 
 }
+/* 支付方式部分 */
 .order .main .order-tatal{
 
     overflow: hidden;
