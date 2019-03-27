@@ -5,7 +5,7 @@
     <title>category</title>
     <link rel="stylesheet" type="text/css" href="../assets/styles/common.css" />
     <link rel="stylesheet" type="text/css" href="../assets/styles/reset.css" />
-	<link rel="stylesheet" type="text/css" href="../assets/styles/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/iconfont.css">
     <link rel="stylesheet" type="text/css" href="../assets/styles/category.css" />
     <script src="../assets/javascript/jquery.min.js"></script>
 </head>
@@ -22,10 +22,10 @@
                     <!--头部未登录时状态栏 开始-->
                     <ul class="unloaded-nav">
                         <li class="status">
-                            <a href="index.html">登录</a>
+                            <a href="loading.html">登录</a>
                         </li>
                         <li class="status">
-                            <a href="javascript:void(0);">注册</a>
+                            <a href="register.html">注册</a>
                         </li>
                         <!--mini-购物车栏开始-->
                         <li class="mini-cart">
@@ -198,70 +198,28 @@
                 <div class="goods-container">
                     <div class="goods-category">
                         <span class="goods-name">类目</span>
-                        <!--<div class="type-sort">
-								<hr/>
-								<div class="refer-name">
-									<a href="#">产品系列</a>
-								</div>
-								<div class="refer-content">
-									<ul class="list-inline">
-										<li>
-											<a href="#" class="">
-												<span>全部</span>
-											</a>
-										</li>
-										<li class="cur cat-color">
-											<div class="facet-checkbox-label 1000">
-													<input type="checkbox" checked="checked" class="filter-checkbox">
-													<a href="#" class="cat-border-color">
-													新品
-													</a>
-											</div>
-										</li>
-										<li class="">
-											<div class="facet-checkbox-label">
-														<input type="checkbox" class="filter-checkbox">
-														<a href="#">
-														畅销</a>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-						-->
                         <div class="price-sort">
                             <div class="refer-name">
                                 <a href="javascript:void(0);">价格区间</a>
                             </div>
                             <div class="refer-content">
-                                <ul class="list-inline">
-                                    <li>
-                                        <a href="#" class="">
-                                            <span>全部</span>
-                                        </a>
-                                    </li>
-                                    <li class="cur cat-color">
-                                        <label class="facet-checkbox-label 1000">
-                                            <input type="checkbox" checked="checked" class="filter-checkbox">
-                                            <a href="#" class="cat-border-color">
-                                                199-200
-                                            </a>
-                                        </label>
-                                    </li>
-                                    <li class="">
-                                        <div class="plp-advance-filter">
-                                            <input type="text" autocomplete="off" placeholder="请输入" class="fromValue"
-                                                name="fromValue" maxlength="9"> -
-                                            <input type="text" autocomplete="off" placeholder="请输入" class="toValue"
-                                                name="toValue" maxlength="9">
-                                            <input type="submit" value="确定" id="priceRefineSeaerch" class="cat-bgcolor">
-                                        </div>
-                                    </li>
-                                </ul>
+                                <div class="list-inline">
+                                    <a href="#" class="active">
+                                        <span>全部</span>
+                                    </a>
+                                    <a href="#" class="cat-border-color">
+                                        199-200
+                                    </a>
+                                    <div class="plp-advance-filter">
+                                        <input type="text" autocomplete="off" placeholder="请输入" class="fromValue"
+                                            name="fromValue" maxlength="9"> -
+                                        <input type="text" autocomplete="off" placeholder="请输入" class="toValue"
+                                            name="toValue" maxlength="9">
+                                        <input type="submit" value="确定" id="priceRefineSeaerch" class="cat-bgcolor">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <!--<div class=""></div>-->
                         <div class="filter-order">
                             <a href="#" class="active">新品</a>
                             <a href="#">畅销</a>
@@ -270,7 +228,6 @@
                             </a>
                         </div>
                     </div>
-                   <!--商品排列 开始-->
                     <div class="goods-group">
                         <section class="detail-recommend">
                             <div class="detail-recommend-slider center">
@@ -583,7 +540,6 @@
                             </div>
                         </section>
                     </div>
-                     <!--商品排列 结束-->
                 </div>
             </div>
         </div>
