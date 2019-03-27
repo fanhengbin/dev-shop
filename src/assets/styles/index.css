@@ -92,7 +92,6 @@
 }
 .content .content-container .goods-block .goods-container .goods-group .goods-name {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 .content .content-container .goods-block .goods-container .goods-group .goods-name .goods-title {
   font-weight: 400;
@@ -101,14 +100,16 @@
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-recommend {
   background: #f4f4f4;
-}
-.content .content-container .goods-block .goods-container .goods-group .detail-recommend-slider {
-  height: 338px;
-  padding-bottom: 60px;
+  height: auto;
+  overflow: hidden;
+  width: 104%;
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-recommend-slider-wrap {
-  margin-right: -100px;
-  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 18px;
+  padding-bottom: 20px;
+  width: 104%;
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-rs-item {
   position: relative;
@@ -116,6 +117,7 @@
   height: 338px;
   width: 280px;
   margin-right: 40px;
+  margin-top: 25px;
   background: #fff;
   display: block;
 }
