@@ -47,7 +47,32 @@
 
     transition: height .8s;
 }
-.order .main .order-address .order-address-list .order-address-check{
+.order .main .order-address .order-address-list .order-address-check.checked{
+
+    display:none;
+
+    float: left;
+
+    position: relative;
+
+    width: 288px;
+
+    height: 148px;
+
+    border: 1px solid #EFEFEF;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    padding: 0 16px;
+
+    margin: 0 0 30px 12px;
+
+    transition: border-color .8s;
+
+}
+.order .main .order-address .order-address-list .order-address-check.add{
 
     float: left;
 
