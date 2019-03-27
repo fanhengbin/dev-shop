@@ -1,3 +1,4 @@
+/* 确认订单部分 */
 .order{
     /* max-width: 1240px;
     height:1200px;
@@ -19,6 +20,7 @@
 
     box-sizing: border-box
 }
+/* 地址部分 */
 .order .main .order-address{
 
     position: relative;
@@ -45,7 +47,32 @@
 
     transition: height .8s;
 }
-.order .main .order-address .order-address-list .order-address-check{
+.order .main .order-address .order-address-list .order-address-check.checked{
+
+    display:none;
+
+    float: left;
+
+    position: relative;
+
+    width: 288px;
+
+    height: 148px;
+
+    border: 1px solid #EFEFEF;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    padding: 0 16px;
+
+    margin: 0 0 30px 12px;
+
+    transition: border-color .8s;
+
+}
+.order .main .order-address .order-address-list .order-address-check.add{
 
     float: left;
 
@@ -71,9 +98,9 @@
 .order .main .order-address .order-address-list .order-address-check.checked,.order .main .order-address .order-address-list .order-address-check:hover{
 
 
-    border: 1px solid rgb(213, 28, 41);
+    border: 1px solid #E02B41;
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
 
 }
 .order .main .order-address .order-address-list .order-address-check .order-address-check-top{
@@ -142,7 +169,9 @@
 
     height: 20px;
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
+
+    display:none;
 }
 .order .main .order-address .order-address-list .order-address-check .order-address-check-ctrl{
 
@@ -162,7 +191,7 @@
 
     padding-top: 5px;
 
-    color: rgb(213, 28, 41)
+    color:#E02B41
 
 }
 .order .main .order-address .order-address-list .order-address-check .order-address-check-ctrl .delete{
@@ -222,6 +251,7 @@
     transition: color .8s;
 
 }
+/* 产品信息部分 */
 .order .main .order-product{
 
     padding: 0 24px 30px;
@@ -235,9 +265,9 @@
 
     height:40px;
 
-    background-color: rgb(213, 28, 41);
+    background-color: #E02B41;
 
-    border:1px solid rgb(213, 28, 41);
+    border:1px solid #E02B41;
 
     font-size:14px;
 
@@ -443,7 +473,7 @@
 
     width: 160px;
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
 
     line-height: 150px;
 
@@ -467,7 +497,7 @@
 
     border-left: 1px solid #EFEFEF;
 
-    color: rgb(213, 28, 41);
+    color: #E02B41;
     
     display: table-cell;
 
@@ -525,7 +555,7 @@
 }
 .order .main .order-product .product-list .table .tfoot .order-product-footer .product-total .price{
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
 
     font-size: 20px
 
@@ -557,6 +587,7 @@
     color: #999
 
 }
+/* 支付方式部分 */
 .order .main .order-tatal{
 
     overflow: hidden;
@@ -653,7 +684,7 @@
    color:green;
 
 }
-.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .list .lable .iconfont.icon-iconzhi01{
+.order .main .order-tatal .order-tatal-pay .order-tatal-pay-content .order-tatal-pay-row .list .lable .iconfont.icon-alipay{
 
     font-size:35px;
     
@@ -692,7 +723,7 @@
 }
 .order .main .order-tatal .order-tatal-content .order-tatal-row .order-tatal-price.total{
 
-    color: rgb(213, 28, 41);
+    color: #E02B41;
 
     font-size: 20px;
     
@@ -717,9 +748,9 @@
 
     height:40px;
 
-    background-color: rgb(213, 28, 41);
+    background-color: #E02B41;
 
-    border:1px solid rgb(213, 28, 41);
+    border:1px solid #E02B41;
 
     color:#FFF;
 
@@ -914,19 +945,19 @@
 }
 #div2 .middle ul li{
 
-    float:left;
+    float: left;
 
-    width:17%;
+    width: 22%;
 
-    height:100%;
+    height: 100%;
 
-    padding: 0  10px;
+    padding: 0 9px;
 
     line-height: 80px;
 
     position: relative;
 
-    left:40px;
+    left: 37px;
   
 }
 #div2 .middle ul li span{
@@ -937,20 +968,25 @@
 
     font-size: 15px;
 }
-#div2 .middle ul li #sel{
+#div2 .middle ul li .sel{
 
     outline: none;
 
-    width:170px;
+    width: 234px;
 
-    height:40px;
+    height: 40px;
 
     position: relative;
 
-    border:1px solid #eeeeee;
+    border: 1px solid #eeeeee;
 
-    left:-66px;
+    left: -107px;
 
+    margin-left: 13px;
+
+    font-size: 15px;
+
+    color:#aaa;
 
 }
 #div2 .bottom{

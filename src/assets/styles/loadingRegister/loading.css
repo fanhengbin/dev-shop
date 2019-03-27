@@ -15,7 +15,7 @@ a{
    text-decoration: none; 
 }
 /* 网易注册页面的最上面的部分 */
-.header{
+.header-loading{
 
     width:1000px;
 
@@ -24,7 +24,7 @@ a{
     margin:0 auto;
 
 }
-.header .header-left{
+.header-loading .header-left{
 
     width:280px;
 
@@ -33,14 +33,14 @@ a{
     float:left;
 
 }
-.header .header-left .header-01{
+.header-loading .header-left .header-01{
 
     width:136px;
 
     height:100%;
 
 }
-.header .header-left .header-01 img{
+.header-loading .header-left .header-01 img{
 
     width:136px;
 
@@ -49,7 +49,7 @@ a{
     margin:2px 0px 0px 50px;
 
 }
-.header .header-left .header-left-01{
+.header-loading .header-left .header-left-01{
 
     width:2px;
 
@@ -60,7 +60,7 @@ a{
     margin:-32px 0px 0px 200px;
 
 }
-.header .header-left .header-left-02{
+.header-loading .header-left .header-left-02{
 
     width:157px;
 
@@ -76,7 +76,7 @@ a{
 
     color:black;
 }
-.header .header-right{
+.header-loading .header-right{
 
     float:right;
 
@@ -91,7 +91,7 @@ a{
     position: relative;
 
 }
-.header .header-right a{
+.header-loading .header-right a{
 
     font-size:13px;
 
@@ -103,7 +103,7 @@ a{
 
 }
 /* 网易注册页面的中间部分 */
-.main{
+.main-loading{
 
     width:100%;
 
@@ -113,7 +113,7 @@ a{
 
     background-size: 100%;
 }
-.main .main-inner{
+.main-loading .main-inner{
 
     width:1000px;
 
@@ -125,7 +125,7 @@ a{
 
 }
 
-.main .main-inner .box{
+.main-loading .main-inner .box{
 
     width:350px;
 
@@ -146,7 +146,7 @@ a{
     overflow: hidden;
 
 }
-.main .main-inner .box .box-top{
+.main-loading .main-inner .box .box-top{
 
    width:350px;
 
@@ -164,14 +164,14 @@ a{
 
 }
 
-.main .main-inner .box .box-top a:hover{
+.main-loading .main-inner .box .box-top a:hover{
 
     color:blue;
     
     border-bottom:1px solid blue;
     
 } 
-.main .main-inner .box .box-middle{
+.main-loading .main-inner .box .box-middle{
 
     position: relative;
 
@@ -186,7 +186,7 @@ a{
     background: #fff;
 
 }
-.main .main-inner .box .box-middle .address{
+.main-loading .main-inner .box .box-middle .address{
 
     width: 280px;
 
@@ -208,10 +208,21 @@ a{
 
     border-radius:7px;
 
-
 } 
+.main-loading .main-inner .box .box-middle .paragraph{
 
-.table1{
+    font-size:10px;
+
+    color:red;
+
+    position: relative;
+
+    left:5px;
+
+    display: none;
+
+}
+.main-loading .main-inner .box .box-middle .address .table1{
 
     width: 200px;
 
@@ -228,34 +239,12 @@ a{
     outline:none
 
 }
-.main .main-inner .box .box-middle .address:hover,.main .main-inner .box .box-middle .password:hover{
+.main-loading .main-inner .box .box-middle .address:hover,.main-loading .main-inner .box .box-middle .password:hover{
 
     border:1px solid rgb(213, 28, 41);
 }
-.symbol{
 
-    margin:12px 0px 0px 0px;
-
-    position: absolute;
-
-    color:rgb(146, 144, 144);
-
-}
-/* #sel{
-
-    width: 100px;
-
-    height : 30px;
-
-    border-radius : 10%;
-
-    position: relative;
-
-    border:1px solid #fff;
-
-    color:rgb(146, 144, 144);
-} */
-.main .main-inner .box .box-middle .password{
+.main-loading .main-inner .box .box-middle .password{
    
     width: 200px;
 
@@ -278,7 +267,7 @@ a{
     position: relative;
  
 } 
-.main .main-inner .box .box-middle .password .get-code{
+.main-loading .main-inner .box .box-middle .password .get-code{
 
     width: 80px;
 
@@ -304,7 +293,7 @@ a{
 
     font-size:10px;
 }
-.main .main-inner .box .box-middle .freeload{
+.main-loading .main-inner .box .box-middle .freeload{
 
     width: 350px;
 
@@ -312,10 +301,10 @@ a{
 
     position: absolute;
 
-    top:166px;
+    top:187px;
 
 }
-.table2{
+.main-loading .main-inner .box .box-middle .password .table2{
 
     width: 163px;
 
@@ -329,15 +318,7 @@ a{
 
     outline:none
 }
-
-.lable{
-
-    color:#aaa;
-
-    font-size:14px;
-
-}
-.main .main-inner .box .box-middle .load-01{
+.main-loading .main-inner .box .box-middle .load-01{
 
     width:250px;
 
@@ -366,13 +347,13 @@ a{
     border:1px solid rgb(213, 28, 41);
 
 }
-.main .main-inner .box .box-middle .load-01:hover{
+.main-loading .main-inner .box .box-middle .load-01:hover{
 
     box-shadow: 1px 2px 5px rgb(213, 28, 41),-2px -2px 5px rgb(213, 28, 41);
 
 }
 
-.main .main-inner .main-bottom{
+.main-loading .main-inner .main-bottom{
 
     width:200px;
 
@@ -391,7 +372,7 @@ a{
     float:left;
 
 }
-.main .main-inner .main-bottom .main-bottom-01 {
+.main-loading .main-inner .main-bottom .main-bottom-01 {
 
     width:30px;
 
@@ -420,7 +401,7 @@ a{
     text-align:center;
    
 }
-.main .main-inner .main-bottom .main-bottom-02{
+.main-loading .main-inner .main-bottom .main-bottom-02{
 
     width:30px;
 
@@ -449,13 +430,13 @@ a{
     text-align:center;
 
 }
-.main .main-inner .main-bottom .main-bottom-01 a,.main .main-inner .main-bottom .main-bottom-02 a{
+.main-loading .main-inner .main-bottom .main-bottom-01 a,.main-loading .main-inner .main-bottom .main-bottom-02 a{
 
     color:#fff;
 
     font-size:27px;
 }
-.register{
+.main-loading .main-inner .box .box-middle .freeload .register{
 
     color:rgb(213, 28, 41);
 
@@ -463,14 +444,14 @@ a{
 
     left:50px;
 
-    top:-10px;
+    top:-25px;
 
     text-decoration: none;
 
     position: relative;
 
 }
-.forget{
+.main-loading .main-inner .box .box-middle .freeload .forget{
 
     color:#aaa;
 
@@ -478,7 +459,7 @@ a{
 
     left:170px;
 
-    top:-10px;
+    top:-25px;
 
     text-decoration: none;
 
@@ -486,7 +467,7 @@ a{
 
 }
 /* 网易注册页面的最下面部分 */
-.footer{
+.footer-loading{
 
     width:1000px;
 
@@ -499,7 +480,7 @@ a{
     top:80px;
 
 }
-.footer .footer-right-top{
+.footer-loading .footer-right-top{
 
     float:left;
 
@@ -509,7 +490,7 @@ a{
 
     left:300px;
 }
-.footer .footer-right-top a{
+.footer-loading .footer-right-top a{
 
     color:#aaa;
 
@@ -520,7 +501,7 @@ a{
     text-decoration: none;
 
 }
-.footer .footer-right-bottom{
+.footer-loading .footer-right-bottom{
 
     float:left;
 
@@ -531,17 +512,17 @@ a{
     font-size:12px;
     
 }
-.footer .footer-right-bottom .footer-right-bottom-last{
+.footer-loading .footer-right-bottom .footer-right-bottom-last{
 
     color:#aaa;
     
 }
-.footer .footer-right-bottom-01 {
+.footer-loading .footer-right-bottom-01 {
 
     margin-left:190px;
 
 }
-.footer .footer-right-bottom a{
+.footer-loading .footer-right-bottom a{
 
     padding-left:8px;
 

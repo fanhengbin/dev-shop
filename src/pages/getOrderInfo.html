@@ -10,7 +10,6 @@
     <script src="../assets/javascript/jquery.min.js"></script>
 </head>
 <body>
-    <div class="program-wrapper">
         <!--公共头部-->
         <div class="common-header">
             <div class="header-container">
@@ -29,65 +28,68 @@
         <!--主体内容开始-->
         <div class="order">
             <div class="main">
+                <!-- 地址操作部分 -->
                 <div class="order-address">
                     <div class="order-address-title">收货人信息</div>
                     <ul class="order-address-list">
+                        <!-- 已经写好的地址 -->
                         <li class="order-address-check checked">
                             <div class="order-address-check-top">
                                 <div class="order-address-check-name">徐**</div>
                                 <div class="order-address-check-phone">12345678901</div>
                             </div>
                             <div class="order-address-check-content">一个真实的地址呀</div>
-                            <div class="order-address-check-checked"><span class="iconfont icon-right-5"></span></div>
+                            <div class="order-address-check-checked"><span class="iconfont icon-tianchongxuanxiangkuangqueding"></span></div>
                             <div class="order-address-check-ctrl">
                                 <div class="delete">删除</div>
                                 <div class="edit">修改</div>
                             </div>
                         </li>
                         <li class="order-address-check checked">
-                                <div class="order-address-check-top">
-                                    <div class="order-address-check-name">徐**</div>
-                                    <div class="order-address-check-phone">12345678901</div>
-                                </div>
-                                <div class="order-address-check-content">一个真实的地址呀呀</div>
-                                <div class="order-address-check-checked"><span class="iconfont icon-right-5"></span></div>
-                                <div class="order-address-check-ctrl">
-                                    <div class="delete">删除</div>
-                                    <div class="edit">修改</div>
-                                </div>
-                            </li>
-                            <li class="order-address-check checked">
-                                    <div class="order-address-check-top">
-                                        <div class="order-address-check-name">徐**</div>
-                                        <div class="order-address-check-phone">12345678901</div>
-                                    </div>
-                                    <div class="order-address-check-content">一个真实的地址呀呀呀</div>
-                                    <div class="order-address-check-checked"><span class="iconfont icon-right-5"></span></div>
-                                    <div class="order-address-check-ctrl">
-                                        <div class="delete">删除</div>
-                                        <div class="edit">修改</div>
-                                    </div>
-                                </li>
+                            <div class="order-address-check-top">
+                                <div class="order-address-check-name">徐**</div>
+                                <div class="order-address-check-phone">12345678901</div>
+                            </div>
+                            <div class="order-address-check-content">一个真实的地址呀呀</div>
+                            <div class="order-address-check-checked"><span class="iconfont icon-tianchongxuanxiangkuangqueding"></span></div>
+                            <div class="order-address-check-ctrl">
+                                <div class="delete">删除</div>
+                                <div class="edit">修改</div>
+                            </div>
+                        </li>
                         <li class="order-address-check checked">
-                            <!-- :class="item==index?'order-address-check':''" -->
-                                <div class="order-address-check-top">
-                                    <div class="order-address-check-name">徐**</div>
-                                    <div class="order-address-check-phone">12345678901</div>
-                                </div>
-                                <div class="order-address-check-content">一个真实的地址呀呀呀呀</div>
-                                <div class="order-address-check-checked"><span class="iconfont icon-right-5"></span></div>
-                                <div class="order-address-check-ctrl">
-                                    <div class="delete">删除</div>
-                                    <div class="edit">修改</div>
-                                </div>
-                            </li>
-                        
+                            <div class="order-address-check-top">
+                                <div class="order-address-check-name">徐**</div>
+                                <div class="order-address-check-phone">12345678901</div>
+                            </div>
+                            <div class="order-address-check-content">一个真实的地址呀呀呀</div>
+                            <div class="order-address-check-checked"><span class="iconfont icon-tianchongxuanxiangkuangqueding"></span></div>
+                            <div class="order-address-check-ctrl">
+                                <div class="delete">删除</div>
+                                <div class="edit">修改</div>
+                            </div>
+                        </li>
+                        <li class="order-address-check checked">
+                        <!-- :class="item==index?'order-address-check':''" -->
+                            <div class="order-address-check-top">
+                                <div class="order-address-check-name">徐**</div>
+                                <div class="order-address-check-phone">12345678901</div>
+                            </div>
+                            <div class="order-address-check-content">一个真实的地址呀呀呀呀</div>
+                            <div class="order-address-check-checked"><span class="iconfont icon-tianchongxuanxiangkuangqueding"></span></div>
+                            <div class="order-address-check-ctrl">
+                                <div class="delete">删除</div>
+                                <div class="edit">修改</div>
+                            </div>
+                        </li>
+                        <!-- 新增地址部分 -->
                         <li class="order-address-check add">
                             <div class="order-address-icon" id="add"><span class="iconfont icon-zengjia"></span></div>
                             <div class="order-address-add-text">添加新的地址</div>
                         </li>
                     </ul>
                 </div>
+                <!-- 订单信息部分 -->
                 <div class="order-product">
                     <div class="product-title">确认订单信息
                         <button class="shoppingCart"><a href="shoppingcart.html" alt="返回购物车">返回购物车</a></button>
@@ -160,6 +162,7 @@
                         </table>
                     </div>
                 </div>
+                <!-- 支付方式 -->
                 <div class="order-tatal">
                     <div class="order-tatal-pay">
                         <div class="order-tatal-pay-header">选择支付方式</div>
@@ -169,7 +172,7 @@
                                 <ul class="list">
                                     <li class="lable">
                                         <input type="radio" name="radio" value="1" class="radio">
-                                        <span class="iconfont icon-iconzhi01"></span>
+                                        <span class="iconfont icon-alipay"></span>
                                     </li>
                                 </ul>
                             </div>
@@ -184,6 +187,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 产品部分的尾部 -->
                     <div class="order-tatal-content">
                         <div class="order-tatal-row">总金额：
                             <div class="order-tatal-price">￥1000</div>
@@ -287,63 +291,48 @@
         <!-- 弹窗部分 -->
         <div id="background" class="back">
             <div id="div1" class="content">
+                <!-- 弹窗头部 -->
                 <div id="close">
                     <h2 class="title">地址操作</h2>
                     <span id="close-button">×</span>
                 </div>
+                <!-- 弹窗中间的部分 -->
                 <div id="div2">
-                   <div class="top">
+                    <div class="top">
                         <div class="top-left"><span>收货人姓名</span>
                             <input  type="text" class="name"  placeholder="请输入姓名">
                         </div>
                         <div class="top-right"><span>收货人手机号码</span>
                             <input type="text" class="number" placeholder="请输入手机号码" maxlength="11">
                         </div>
-                   </div>
-                   <div class="middle">
+                    </div>
+                    <div class="middle">
                         <ul>
                             <li><span>收货人地址</span></li>
-                            <li><select id="sel" display="none">
-                                    <option value="1" >商品预检员</option>
-                                    <option value="2">库存管理员</option>
-                                    <option value="3">退货管理员</option>
-                                    <option value="4">换货管理员</option>
-                                    <option value="5" selected="selected">省份</option>
+                            <li><select class="sel" id="cmbProvince" name="cmbProvince" display="none">    
                             </select></li>
-                            <li><select id="sel" display="none">
-                                    <option value="1" >商品预检员</option>
-                                    <option value="2">库存管理员</option>
-                                    <option value="3">退货管理员</option>
-                                    <option value="4">换货管理员</option>
-                                    <option value="5" selected="selected">城市</option>
+                            <li><select class="sel" id="cmbCity" name="cmbCity" display="none">  
                             </select></li>
-                            <li><select id="sel" display="none">
-                                    <option value="1" >商品预检员</option>
-                                    <option value="2">库存管理员</option>
-                                    <option value="3">退货管理员</option>
-                                    <option value="4">换货管理员</option>
-                                    <option value="5" selected="selected">镇</option>
-                            </select></li>
-                            <li><select id="sel" display="none">
-                                    <option value="1" >商品预检员</option>
-                                    <option value="2">库存管理员</option>
-                                    <option value="3">退货管理员</option>
-                                    <option value="4">换货管理员</option>
-                                    <option value="5" selected="selected">村</option>
+                            <li><select class="sel" id="cmbArea" name="cmbArea" display="none">
                             </select></li>
                         </ul>
-                   </div>
-                   <div class="bottom"><span>详细地址</span>
-                    <input type="text" class="detail">
-                  </div>
-                  <div class="button-two">
-                      <button class="confirm">确&nbsp认</button>
-                      <button class="cancel">取&nbsp消</button>
-                  </div>
+                    </div>
+                    <div class="bottom"><span>详细地址</span>
+                        <input type="text" class="detail">
+                    </div>
+                    <!-- 弹窗后面的部分 -->
+                    <div class="button-two">
+                        <button class="confirm">确&nbsp认</button>
+                        <button class="cancel">取&nbsp消</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script type="text/javascript" src="../assets/javascript/getOrderInfo.js"></script>
+<script type="text/javascript" src="../assets/javascript/address.js"></script>
+<script type="text/javascript">  
+    // 省市区三级联动
+    addressInit('cmbProvince', 'cmbCity', 'cmbArea');  
+</script>
+<script type="text/javascript" src="../assets/javascript/getOrderInfo.js"></script>
 </body>
 </html>

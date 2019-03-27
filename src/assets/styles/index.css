@@ -92,7 +92,6 @@
 }
 .content .content-container .goods-block .goods-container .goods-group .goods-name {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 .content .content-container .goods-block .goods-container .goods-group .goods-name .goods-title {
   font-weight: 400;
@@ -101,14 +100,16 @@
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-recommend {
   background: #f4f4f4;
-}
-.content .content-container .goods-block .goods-container .goods-group .detail-recommend-slider {
-  height: 338px;
-  padding-bottom: 60px;
+  height: auto;
+  overflow: hidden;
+  width: 104%;
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-recommend-slider-wrap {
-  margin-right: -100px;
-  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 18px;
+  padding-bottom: 20px;
+  width: 104%;
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-rs-item {
   position: relative;
@@ -116,6 +117,7 @@
   height: 338px;
   width: 280px;
   margin-right: 40px;
+  margin-top: 25px;
   background: #fff;
   display: block;
 }
@@ -127,14 +129,12 @@
   padding: 30px 10px 5px;
   text-align: center;
 }
-.content .content-container .goods-block .goods-container .goods-group .detail-rs-item-wrap1 {
-  display: block;
-  padding: 30px 10px 5px;
-  text-align: center;
+.content .content-container .goods-block .goods-container .goods-group .detail-rs-item-wrap .mod-pic img {
+  width: 200px;
+  height: 245px;
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-rs-item-wrap .mod-desc {
   display: none;
-  margin-top: 26px;
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-rs-item-wrap .mod-desc .vm-title {
   font-size: 14px;
@@ -156,6 +156,16 @@
   color: #e02b41;
   padding-right: 2px;
   font-size: 16px;
+}
+.content .content-container .goods-block .goods-container .goods-group .detail-rs-item-wrap .mod-desc .vm-link {
+  color: #FFFFFF;
+  background: #00305E;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  /* text-align: center; */
+  margin-left: 73px;
+  margin-top: 5px;
 }
 
 #topbar {

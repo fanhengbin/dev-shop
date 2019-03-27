@@ -1,6 +1,21 @@
 
 $(document).ready(function () {
-    var  password001, password002, phonenumber, check2, check3, check4;
+    $(".get-code").click(function () {
+        $(".get-code").attr('disabled',"true")
+        var time = 60;
+        var timer = setInterval(function(){
+            time--;
+            window.localStorage.setItem("number-register",  time);
+            $(".get-code").text("(" + time + ") s 重发");
+            if(time <= 0){
+                clearInterval(timer);
+                $('.get-code').removeAttr("disabled");
+                window.localStorage.removeItem('number-register');
+                $(".get-code").text("获取验证码");
+            }
+        },1000);
+    });
+    var  phonenumber;
     //   监听电话号码变化
     $('#phone1').on('input propertychange', function () {
         phonenumber = $('#phone1').val();
@@ -23,13 +38,12 @@ $(document).ready(function () {
     $('.register').click(function () {
         //  判断是否全部正确
         if ( check4 == 1) {
-            alert("注册成功！");
             //    获取本地的登陆页面
             $(location).prop('href', 'loading.html');
             //    将值存到缓存区
             window.localStorage.setItem("account", phonenumber);
             //    清空所有信息
-            $('#phone1').val("");
+            // $('#phone1').val("");
         } else {
             $('#phone-1').hide();
             $('#phone-1-01').show();
