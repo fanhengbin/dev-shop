@@ -47,7 +47,32 @@
 
     transition: height .8s;
 }
-.order .main .order-address .order-address-list .order-address-check{
+.order .main .order-address .order-address-list .order-address-check.checked{
+
+    display:none;
+
+    float: left;
+
+    position: relative;
+
+    width: 288px;
+
+    height: 148px;
+
+    border: 1px solid #EFEFEF;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    padding: 0 16px;
+
+    margin: 0 0 30px 12px;
+
+    transition: border-color .8s;
+
+}
+.order .main .order-address .order-address-list .order-address-check.add{
 
     float: left;
 
@@ -73,9 +98,9 @@
 .order .main .order-address .order-address-list .order-address-check.checked,.order .main .order-address .order-address-list .order-address-check:hover{
 
 
-    border: 1px solid rgb(213, 28, 41);
+    border: 1px solid #E02B41;
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
 
 }
 .order .main .order-address .order-address-list .order-address-check .order-address-check-top{
@@ -144,7 +169,7 @@
 
     height: 20px;
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
 
     display:none;
 }
@@ -166,7 +191,7 @@
 
     padding-top: 5px;
 
-    color: rgb(213, 28, 41)
+    color:#E02B41
 
 }
 .order .main .order-address .order-address-list .order-address-check .order-address-check-ctrl .delete{
@@ -240,9 +265,9 @@
 
     height:40px;
 
-    background-color: rgb(213, 28, 41);
+    background-color: #E02B41;
 
-    border:1px solid rgb(213, 28, 41);
+    border:1px solid #E02B41;
 
     font-size:14px;
 
@@ -448,7 +473,7 @@
 
     width: 160px;
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
 
     line-height: 150px;
 
@@ -472,7 +497,7 @@
 
     border-left: 1px solid #EFEFEF;
 
-    color: rgb(213, 28, 41);
+    color: #E02B41;
     
     display: table-cell;
 
@@ -530,7 +555,7 @@
 }
 .order .main .order-product .product-list .table .tfoot .order-product-footer .product-total .price{
 
-    color:rgb(213, 28, 41);
+    color:#E02B41;
 
     font-size: 20px
 
@@ -698,7 +723,7 @@
 }
 .order .main .order-tatal .order-tatal-content .order-tatal-row .order-tatal-price.total{
 
-    color: rgb(213, 28, 41);
+    color: #E02B41;
 
     font-size: 20px;
     
@@ -723,9 +748,9 @@
 
     height:40px;
 
-    background-color: rgb(213, 28, 41);
+    background-color: #E02B41;
 
-    border:1px solid rgb(213, 28, 41);
+    border:1px solid #E02B41;
 
     color:#FFF;
 

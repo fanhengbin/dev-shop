@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    var checked_one,checked_two;
     // 鼠标划上已经写好的地址上面会显示修改和删除
     $('.order-address-check.checked').mouseover(function(){
         var index3 = $('.order-address-check.checked').index(this);
@@ -33,6 +34,7 @@ $(document).ready(function(){
     // 点击地址上的新增
     $('.order-address-check.add').click(function(){
         $('#background').css("display","block")
+        checked_one = 1;
     });
     // 点击地址上的修改
     $('.edit').click(function(){
@@ -52,11 +54,15 @@ $(document).ready(function(){
     // 点击确认会清空弹窗内信息
     $('.confirm').click(function(){
         div.style.display = "none";
+        checked_two = 1;
         $('.name').val("");
         $('.number').val("");
         $('.detail').val("");
         $("#cmbProvince option:first").prop("selected", 'selected');
         addressInit('cmbProvince', 'cmbCity', 'cmbArea'); 
+        if(checked_one == 1&&checked_two ==1){
+            $('.order-address-check.checked').css("display","block")
+        }
     });
     // 点击返回会清空弹窗内信息
     $('.cancel').click(function(){
