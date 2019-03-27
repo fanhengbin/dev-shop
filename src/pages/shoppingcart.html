@@ -16,19 +16,215 @@
     <script src="../assets/javascript/shoppingcart.js"></script>
 </head>
 <body>
+    <div class="common-header clearfix">
+        <div class="header-container">
+            <div class="top-logo">
+                <!--联蔚图标-->
+                <img src="http://www.connext.com.cn/assets/images/logo-pc.png" />
+            </div>
+            <div class="top-nav">
+                <div class="person-information">
+                    <!--头部未登录时状态栏 开始-->
+                    <ul class="unloaded-nav">
+                        <li class="status">
+                            <a href="loading.html">登录</a>
+                        </li>
+                        <li class="status">
+                            <a href="register.html">注册</a>
+                        </li>
+                        <!--mini-购物车栏开始-->
+                        <li class="mini-cart">
+                            <div class="cart-nav">
+                                <i class="iconfont icon-gouwuche"></i>
+                                <a href="javascript:void(0);">购物车</a>
+                                <span>(0)</span>
+                            </div>
+                            <!--空购物车开始-->
+                            <div class="empty-cart">
+                                <p>购物车中还没有商品，赶紧选购吧！</p>
+                            </div>
+                            <!--空购物车结束-->
+                            <!--购物车toast（有货）开始-->
+                            <div class="exist-cart">
+                                <div class="cart-list">
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                </div>
+                                <div class="cart-payment">
+                                    <div class="cart-left">
+                                        <p>共<em>3</em>件商品</p>
+                                        <span class="cart-price"><em>378</em>元</span>
+                                    </div>
+                                    <div class="cart-right">
+                                        <a class="btn-cart" href="javascript:void(0);">去购物车结算</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--购物车toast（有货）结束-->
+                        </li>
+                        <!--mini-购物车栏结束-->
+                    </ul>
+                    <!--头部未登录时状态栏 结束-->
+                    <!--头部登录时状态栏 开始-->
+                    <ul class="loaded-nav">
+                        <li class="status">
+                            <a href="javascript:void(0);">个人昵称</a>
+                        </li>
+                        <!--mini-购物车栏 开始-->
+                        <li class="mini-cart">
+                            <div class="cart-nav">
+                                <i class="iconfont icon-gouwuche"></i>
+                                <a href="javascript:void(0);">购物车</a>
+                                <span>(0)</span>
+                            </div>
+                            <div class="empty-cart">
+                                <p>购物车中还没有商品，赶紧选购吧！</p>
+                            </div>
+                            <!--购物车toast（有货）开始-->
+                            <div class="exist-cart">
+                                <div class="cart-list">
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                </div>
+                                <div class="cart-payment">
+                                    <div class="cart-left">
+                                        <p>共<em>3</em>件商品</p>
+                                        <span class="cart-price"><em>378</em>元</span>
+                                    </div>
+                                    <div class="cart-right">
+                                        <a class="btn-cart" href="javascript:void(0);">去购物车结算</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--购物车toast（有货）结束-->
+                        </li>
+                        <!--mini-购物车栏 结束-->
+                    </ul>
+                    <!--头部登录时状态栏 开始-->
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="cart">
-        <!-- 购物车中部      -->
+        <!-- 购物车为空时 -->
+        <div class="cart-empty center" style="display:none">
+            <div class="cart-empty-content">
+                <div class="cart-empty-left">
+                </div>
+                <div class="cart-empty-right">
+                    <div class="cart-empty-title">
+                        购物车内还没有商品，赶紧去选购吧~
+                    </div>
+                    <div class="tips-btn">
+                        <a class=" primary" href="index.html">返回商城首页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 购物车中部-->
         <div class="center">
             <!-- 表格头部 -->
             <table class="cart-header">
-
                 <tbody>
                     <tr>
                         <td class="cart-col-select">
-                            <!-- 全选按钮 -->
-                            <div class="cart-select-all JSelectAll">
-                                <div class="mz-checkbox"></div>
-                                <span class="cart-select-title">全选</span>
+                            <!-- 顶部全选按钮 -->
+                            <div class="selectAll">
+                                <input type="checkbox" name="selectAllChckbox" class='mz-checkbox allSelected'
+                                    autocomplete="off">
+                                <label for="selectAllChckbox">全选</label>
                             </div>
                         </td>
                         <td class="cart-col-price">单价(元)</td>
@@ -38,179 +234,288 @@
                     </tr>
                 </tbody>
             </table>
-            <ul class="cart-merchant-list" id="merchantList">
+            <!-- 商品列表 -->
+            <ul class="cart-merchant-list">
                 <li class="cart-merchant">
-                    <!-- <div class="cart-merchant-header">
-                         <div class="cart-select-all">
-                            <div class="mz-checkbox"></div>
-                            <span class="cart-select-title">魅族</span>
-                        </div> -->
-                        <!-- 邮费 -->
-                        <!-- <div class="cart-select-fee unFreeShipping">
-                            <span class="cart-free">已免邮费</span>
-                            <div>
-                                <p>再买<span class="cart-shipping-price">80.00</span>元起，即可免运费 </p>
-                                <span class="fee-shipping-skip" data-mdesc="满包邮活动" data-mtype="click_store_cart_postage"
-                                    data-bh="click_store_cart_postage">立即凑单 &gt;</span>
-                            </div>
+                    <div class="mainCommodity">
+                        <div class="commodityInfo">
+                            <ul>
+                                <li class='td-chk'>
+                                    <div class="td-inner">
+                                        <input type="checkbox" name='checkbox' autocomplete="off" class="mz-checkbox">
+                                    </div>
+                                </li>
+                                <li class='td-item'>
+                                    <div class="td-inner">
+                                        <!-- 商品图片 -->
+                                        <img class='cart-product-img' alt="魅族 16th" src="../assets/images/goods.png">
+                                        <!-- 商品信息 -->
+                                        <div class="td-info-msg">
+                                            <p>颜色分类：028黑蜂窝111111</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class='td-price'>
+                                    <div class="td-inner">
+                                        <p class='discount'>￥<span>49.00</span></p>
+                                    </div>
+                                </li>
+                                <li class='td-amount'>
+                                    <div class="item-amount">
+                                        <a href="#" class='amount-left amount-color'>-</a>
+                                        <input type="text" name='amountNum' value='1' autocomplete="off">
+                                        <a href="#" class="amount-right">+</a>
+                                    </div>
+                                </li>
+                                <li class='td-sum'>
+                                    <em>￥</em>
+                                    <span>49.00</span>
+                                </li>
+                                <li>
+                                    <p><a href="#" class='delete'>删除</a></p>
+                                </li>
+                            </ul>
                         </div>
-                    </div> -->
-                    <table class="cart-merchant-body">
-                        <!-- 商品 -->
-                        <tr class="cart-product">
-                            <td class="cart-col-select">
-                                <!-- 选中框 -->
-                                <div class="mz-checkbox checked"></div>
-                                <!-- 商品图片 -->
-                                <a href="javascript:;" class="cart-product-link">
-                                    <img class="cart-product-img" alt="魅族 16th" src="../assets/images/goods.png">
-                                </a>
-                                <a href="javascript:;"class="cart-product-link cart-product-info" >
-                                    <!-- 商品名称 -->
-                                    <p class="cart-product-item-name">魅族 16th</p>
-                                    <!-- 商品型号 -->
-                                    <p class="cart-product-desc">全网通公开版 远山白 6+64GB</p>
-                                </a>
-                            </td>
-                            <!-- 商品单价 -->
-                            <td class="cart-col-price">
-                                <p>
-                                    <span class="cart-product-price">￥ <a href="javascript:;">2498.00</a></span>
-                                </p>
-                            </td>
-                            <!-- 商品购买数量 -->
-                            <td class="cart-col-number">
-                                <div class="mod-control">
-                                    <a title="减少" href="javascript:;" class="vm-minus">-</a>
-                                    <input type="text" value="1">
-                                    <a title="增加" href="javascript:;" class="vm-plus">+</a>
-                                </div>
-                            </td>
-                            <!-- 该商品购买总价 -->
-                            <td class="cart-col-total">
-                                <span class="cart-product-price total">￥<a href="javascript:;" class="cart-product-price total">2498.00</a></span>
-                            </td>
-                            <!-- 删除单个商品按钮 -->
-                            <td class="cart-col-ctrl">
-                                <div class="cart-product-remove"></div>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="cart-merchant-body">
-                            <!-- 商品 -->
-                            <tr class="cart-product">
-                                <td class="cart-col-select">
-                                    <!-- 选中框 -->
-                                    <div class="mz-checkbox"></div>
-                                    <!-- 商品图片 -->
-                                    <a href="javascript:;" class="cart-product-link">
-                                        <img class="cart-product-img" alt="魅族 16th" src="../assets/images/goods.png">
-                                    </a>
-                                    <a href="javascript:;"class="cart-product-link cart-product-info" >
-                                        <!-- 商品名称 -->
-                                        <p class="cart-product-item-name">魅族 16th</p>
-                                        <!-- 商品型号 -->
-                                        <p class="cart-product-desc">全网通公开版 远山白 6+64GB</p>
-                                    </a>
-                                </td>
-                                <!-- 商品单价 -->
-                                <td class="cart-col-price">
-                                    <p>
-                                        <span class="cart-product-price">￥ <a href="javascript:;">2498.00</a></span>
-                                    </p>
-                                </td>
-                                <!-- 商品购买数量 -->
-                                <td class="cart-col-number">
-                                    <div class="mod-control">
-                                        <a title="减少" href="javascript:;" class="vm-minus">-</a>
-                                        <input type="text" value="1">
-                                        <a title="增加" href="javascript:;" class="vm-plus">+</a>
+                    </div>
+                </li>
+                <li class="cart-merchant">
+                    <div class="mainCommodity">
+                        <div class="commodityInfo">
+                            <ul>
+                                <li class='td-chk'>
+                                    <div class="td-inner">
+                                        <input type="checkbox" name='checkbox' autocomplete="off" class="mz-checkbox">
                                     </div>
-                                </td>
-                                <!-- 该商品购买总价 -->
-                                <td class="cart-col-total">
-                                    <span class="cart-product-price total">￥<a href="javascript:;" class="cart-product-price total">2498.00</a></span>
-                                </td>
-                                <!-- 删除单个商品按钮 -->
-                                <td class="cart-col-ctrl">
-                                    <div class="cart-product-remove"></div>
-                                </td>
-                            </tr>
-                    </table>
-                    <table class="cart-merchant-body">
-                            <!-- 商品 -->
-                            <tr class="cart-product">
-                                <td class="cart-col-select">
-                                    <!-- 选中框 -->
-                                    <div class="mz-checkbox"></div>
-                                    <!-- 商品图片 -->
-                                    <a href="javascript:;" class="cart-product-link">
-                                        <img class="cart-product-img" alt="魅族 16th" src="../assets/images/goods.png">
-                                    </a>
-                                    <a href="javascript:;"class="cart-product-link cart-product-info" >
-                                        <!-- 商品名称 -->
-                                        <p class="cart-product-item-name">魅族 16th</p>
-                                        <!-- 商品型号 -->
-                                        <p class="cart-product-desc">全网通公开版 远山白 6+64GB</p>
-                                    </a>
-                                </td>
-                                <!-- 商品单价 -->
-                                <td class="cart-col-price">
-                                    <p>
-                                        <span class="cart-product-price">￥ <a href="javascript:;">2498.00</a></span>
-                                    </p>
-                                </td>
-                                <!-- 商品购买数量 -->
-                                <td class="cart-col-number">
-                                    <div class="mod-control">
-                                        <a title="减少" href="javascript:;" class="vm-minus">-</a>
-                                        <input type="text" value="1">
-                                        <a title="增加" href="javascript:;" class="vm-plus">+</a>
+                                </li>
+                                <li class='td-item'>
+                                    <div class="td-inner">
+                                        <!-- 商品图片 -->
+                                        <img class='cart-product-img' alt="魅族 16th" src="../assets/images/goods.png">
+                                        <!-- 商品信息 -->
+                                        <div class="td-info-msg">
+                                            <p>颜色分类：028黑蜂窝</p>
+                                        </div>
                                     </div>
-                                </td>
-                                <!-- 该商品购买总价 -->
-                                <td class="cart-col-total">
-                                    <span class="cart-product-price total">￥<a href="javascript:;" class="cart-product-price total">2498.00</a></span>
-                                </td>
-                                <!-- 删除单个商品按钮 -->
-                                <td class="cart-col-ctrl">
-                                    <div class="cart-product-remove"></div>
-                                </td>
-                            </tr>
-                    </table>
+                                </li>
+                                <li class='td-price'>
+                                    <div class="td-inner">
+                                        <p class='discount'>￥<span>49.00</span></p>
+                                    </div>
+                                </li>
+                                <li class='td-amount'>
+                                    <div class="item-amount">
+                                        <a href="#" class='amount-left amount-color'>-</a>
+                                        <input type="text" name='amountNum' value='1' autocomplete="off">
+                                        <a href="#" class="amount-right">+</a>
+                                    </div>
+                                </li>
+                                <li class='td-sum'>
+                                    <em>￥</em>
+                                    <span>49.00</span>
+                                </li>
+                                <li>
+                                    <p><a href="#" class='delete'>删除</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="cart-merchant">
+                    <div class="mainCommodity">
+                        <div class="commodityInfo">
+                            <ul>
+                                <li class='td-chk'>
+                                    <div class="td-inner">
+                                        <input type="checkbox" name='checkbox' autocomplete="off" class="mz-checkbox">
+                                    </div>
+                                </li>
+                                <li class='td-item'>
+                                    <div class="td-inner">
+                                        <!-- 商品图片 -->
+                                        <img class='cart-product-img' alt="魅族 16th" src="../assets/images/goods.png">
+                                        <!-- 商品信息 -->
+                                        <div class="td-info-msg">
+                                            <p>颜色分类：028黑蜂窝</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class='td-price'>
+                                    <div class="td-inner">
+                                        <p class='discount'>￥<span>49.00</span></p>
+                                    </div>
+                                </li>
+                                <li class='td-amount'>
+                                    <div class="item-amount">
+                                        <a href="#" class='amount-left amount-color'>-</a>
+                                        <input type="text" name='amountNum' value='1' autocomplete="off">
+                                        <a href="#" class="amount-right">+</a>
+                                    </div>
+                                </li>
+                                <li class='td-sum'>
+                                    <em>￥</em>
+                                    <span>49.00</span>
+                                </li>
+                                <li>
+                                    <p><a href="#" class='delete'>删除</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="cart-merchant">
+                    <div class="mainCommodity">
+                        <div class="commodityInfo">
+                            <ul>
+                                <li class='td-chk'>
+                                    <div class="td-inner">
+                                        <input type="checkbox" name='checkbox' autocomplete="off" class="mz-checkbox">
+                                    </div>
+                                </li>
+                                <li class='td-item'>
+                                    <div class="td-inner">
+                                        <!-- 商品图片 -->
+                                        <img class='cart-product-img' alt="魅族 16th" src="../assets/images/goods.png">
+                                        <!-- 商品信息 -->
+                                        <div class="td-info-msg">
+                                            <p>颜色分类：028黑蜂窝</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class='td-price'>
+                                    <div class="td-inner">
+                                        <p class='discount'>￥<span>49.00</span></p>
+                                    </div>
+                                </li>
+                                <li class='td-amount'>
+                                    <div class="item-amount">
+                                        <a href="#" class='amount-left amount-color'>-</a>
+                                        <input type="text" name='amountNum' value='1' autocomplete="off">
+                                        <a href="#" class="amount-right">+</a>
+                                    </div>
+                                </li>
+                                <li class='td-sum'>
+                                    <em>￥</em>
+                                    <span>49.00</span>
+                                </li>
+                                <li>
+                                    <p><a href="#" class='delete'>删除</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
             </ul>
-        </div>
-        <!-- 购物车底部      -->
-        <div class="cart-footer">
-            <div class="mzcontainer center">
-                <div class="cart-footer-left">
-                    <!-- 全选按钮 -->
-                    <div class="cart-select-all JSelectAll">
-                        <div class="mz-checkbox"></div>
-                        <span class="cart-select-title">全选</span>
+            <!-- 购物车底部      -->
+            <div class="footer">
+                <div class="footer-left">
+                    <div class="fl selectAll">
+                        <input type="checkbox" name='all-selected' id='all-selected' class='mz-checkbox allSelected'
+                            autocomplete="off">
+                        <label for="all-selected">全选</label>
                     </div>
-                    <!-- 删除选中商品 -->
-                    <span class="cart-remove-selected" id="removeSelected">删除选中的商品</span>
-                    <!-- 商品购买信息 -->
-                    <span class="cart-footer-count">
-                        共<span class="cart-footer-num" id="totalCount">1</span>件商品，
-                        已选择<span class="cart-footer-num blue" id="totalSelectedCount">0</span>件
-                    </span>
+                    <div class="operation fl">
+                        <a href="#" class='deleteSelected'>删除选中的商品</a>
+                    </div>
+                    <div class="amount-sum fl">
+                        <span>已选商品</span>
+                        <em class='totalSum'>0</em>
+                        <span>件</span>
+                    </div>
                 </div>
-                <div class="cart-footer-right">
-                    <span class="cart-footer-sum">
-                        已优惠<span class="cart-footer-num red" id="totalDiscount">0.00</span>元，
-                        <!-- 购物车总价格 -->
-                        合计(不含运费)：<span class="cart-footer-total" id="totalPrice">0.00</span>
-                    </span>
-                    <!-- 结算按钮 -->
-                    <button class="mz-btn success to-order-btn" id="cartSubmit">去结算
-                    </button>
+                <div class="footer-right">
+                    <div class="price-sum fl">
+                        <span>合计（不含运费）：</span>
+                        <span class='moneySym'>￥</span>
+                        <em class='total-sum'>0.00</em>
+                        <span class="charge">商品总价不足<em class='carriage-red'>￥300.00</em>，
+                            另需运费<em class='carriage-red'>￥10.00</em></span>
+                        <span class="free">商品总价已满<em class='carriage-red'>￥300.00</em>，
+                            免运费</span>
+                    </div>
+                    <div class="btn-area fl" id='btn-sum'>
+                        结 算
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--公共尾部开始-->
+    <div class="common-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <ul class="footer-service">
+                    <li>
+                        <a href="javascript:void(0);"><img
+                                src="https://fms.res.meizu.com/dms/2018/07/13/2c69bf7c-2d29-4fd4-852e-0aa497f36f51.png"
+                                alt="" /><span>满300免运费</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img
+                                src="https://fms.res.meizu.com/dms/2018/07/13/d28eac8b-b915-49dc-9dbd-80884a07d44f.png"
+                                alt="" /><span>100+ 城市次日送达</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img
+                                src="https://fms.res.meizu.com/dms/2018/07/13/b21f3e65-f7f4-4693-914c-c070faf96770.png"
+                                alt="" /><span>7天无理由退货</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img
+                                src="https://fms.res.meizu.com/dms/2018/07/13/1998f0da-a439-4e07-9736-e6a1c39fb0ae.png"
+                                alt="" /><span>15天换货保障</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img
+                                src="https://fms.res.meizu.com/dms/2018/07/13/420825c1-4763-436d-b3e1-721651ccc70c.png"
+                                alt="" /><span>1年免费保修</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img
+                                src="https://fms.res.meizu.com/dms/2018/07/13/1c5cfeff-1b35-499e-bc2a-1fd29305be69.png"
+                                alt="" /><span>上门快修</span></a>
+                    </li>
+                </ul>
+                <div class="footer-server">
+                    <span>周一至周五 9:00-18:00</span>
+                    <p>400-670-5818</p>
+                </div>
+            </div>
+            <hr class="footer-hr" />
+            <div class="footer-bottom">
+                <ul class="footer-links">
+                    <li>
+                        <a href="javascript:void(0);">了解联蔚</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">加入我们</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">联系我们</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">connext</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">公司地址</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">问题反馈</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">线上销售授权名单公示</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">出版物经营许可证</a>
+                    </li>
+                </ul>
+                <div class="footer-certificate">
+                    Copyright © , Connext Co., Ltd. All Rights Reserved.上海联蔚信息科技有限公司　　 隐私 / 使用条款 / 沪公安网备案
+                    33300222000012098号/
+                    <a class="icp" target="_blank" href="http://www.miitbeian.gov.cn">沪ICP备10006391号-54</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--公共尾部结束-->
 </body>
-
 </html>
