@@ -157,9 +157,12 @@
   padding-right: 2px;
   font-size: 16px;
 }
+.content .content-container .goods-block .goods-container .goods-group .detail-rs-item-wrap .mod-desc s {
+  color: #999;
+}
 .content .content-container .goods-block .goods-container .goods-group .detail-rs-item-wrap .mod-desc .vm-link {
   color: #FFFFFF;
-  background: #00305E;
+  background: #E02B41;
   width: 100px;
   height: 30px;
   line-height: 30px;
@@ -192,5 +195,5 @@
 }
 
 #topbar:hover {
-  background: #00305e;
+  background: #E02B41;
 }

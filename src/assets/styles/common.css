@@ -38,10 +38,10 @@
   text-decoration: none;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .status:hover {
-  color: #00C3F5;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart:hover .cart-nav {
-  color: #00C3F5;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .cart-nav i {
   position: absolute;
@@ -107,7 +107,7 @@
   right: 35px;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-list .cart-item span.cart-close:hover {
-  color: red;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-list .cart-item:hover span.cart-close {
   display: block;
@@ -129,7 +129,7 @@
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-left .cart-price {
   display: block;
   font-weight: 400;
-  color: #00C3F5;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-left .cart-price em {
   font-size: 24px;
@@ -145,7 +145,7 @@
   line-height: 30px;
   text-align: center;
   color: #F5F5F5;
-  background: #00C3F5;
+  background: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-right .btn-cart {
   color: #F5F5F5;
@@ -170,10 +170,10 @@
   text-decoration: none;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .status:hover {
-  color: #00C3F5;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart:hover .cart-nav {
-  color: #00C3F5;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .empty-cart {
   display: none;
@@ -235,7 +235,7 @@
   right: 35px;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-list .cart-item span.cart-close:hover {
-  color: red;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-list .cart-item:hover span.cart-close {
   display: block;
@@ -257,7 +257,7 @@
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-left .cart-price {
   display: block;
   font-weight: 400;
-  color: #00C3F5;
+  color: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-left .cart-price em {
   font-size: 24px;
@@ -273,7 +273,7 @@
   line-height: 30px;
   text-align: center;
   color: #F5F5F5;
-  background: #00C3F5;
+  background: #E02B41;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-right .btn-cart {
   color: #F5F5F5;
@@ -331,7 +331,7 @@
   line-height: 30px;
 }
 .common-footer .footer-container .footer-top .footer-server p {
-  color: #00c3f5;
+  color: #E02B41;
   font-size: 25px;
   font-weight: 400;
   margin-top: -6px;
