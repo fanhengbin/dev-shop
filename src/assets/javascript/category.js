@@ -13,6 +13,19 @@ $(function () {
     $('.sort-price').on('click', function (ev) {
         $('.sort-price').toggleClass('iconfont icon-xiangxiajiantou').toggleClass('iconfont icon-xiangshangjiantou');
     });
+    //新品 畅销
+    $('.all-sale').bind('click', function() {
+        $('.item-hot-sale.yellow').show();
+        $('.item-hot-sale.red').show();
+    });
+    $('.new-goods').bind('click', function() {
+        $('.item-hot-sale.red').show();
+        $('.item-hot-sale.yellow').hide();
+    });
+    $('.nice-sale').bind('click', function() {
+        $('.item-hot-sale.yellow').show();
+        $('.item-hot-sale.red').hide();
+    })
 });
 //检测返回首部
 window.onscroll = function () {
