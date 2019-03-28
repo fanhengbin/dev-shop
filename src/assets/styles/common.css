@@ -8,6 +8,9 @@
 .fr {
   float: right;
 }
+.clearfix {
+  clear:both;
+}
 .common-header {
   width: 100%;
 }
