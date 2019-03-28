@@ -59,20 +59,26 @@ $(document).ready(function(){
             checked_three = 0
         }
     });
-    $('.number').on('input propertychange', function () {
-        password001 = $('#password1').val();
-        if ($('.number').val() === "") {
+    //   监听电话号码变化
+    $('#number').on('input propertychange', function () {
+        phonenumber = $('#number').val();
+        if ($('#number').val() === "") {
             checked_five = 1
          }
          else{
             checked_five = 0
         }
     });
-    var Regxx = /^\w{6,18}$/;
-    $('.number').blur(function () {
-        //    密码长度的限制     
-        if (!Regxx.test(password001)) {
-          checked_five = 1
+    //  离开焦点后发生变化  
+    //手机号码正则表达式
+    var reg = /^1[3578][01379]\d{8}|1[34578][01256]\d{8}|(134[012345678]\d{7}|1[34578][012356789]\d{8})$/g;
+    $('#number').blur(function () {
+        //   手机号码的要求
+        if (!reg.test(phonenumber)) {
+            checked_five = 1
+        }
+        else{
+            checked_five = 0  
         }
     });
     $('#detail').on('input propertychange', function () {
@@ -103,12 +109,9 @@ $(document).ready(function(){
     });
     // 点击确认会清空弹窗内信息
     $('.confirm').click(function(){
-        $('#cmbProvince').change(function(){
-            checked_two = 0;
             if($('#cmbProvince').val()!=="请选择省份"){
                 checked_two =1
             }
-           });
         if(checked_one == 1&&checked_two ==1 && checked_three !== 1&&checked_four !== 1&& checked_five !==1){
             div.style.display = "none";
             $('.order-address-check.checked').css("display","block");
@@ -119,6 +122,7 @@ $(document).ready(function(){
             addressInit('cmbProvince', 'cmbCity', 'cmbArea'); 
             checked_two =0;
         }
+        checked_two = 0;
     });
     // 点击返回会清空弹窗内信息
     $('.cancel').click(function(){
