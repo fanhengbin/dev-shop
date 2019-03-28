@@ -478,6 +478,13 @@
     line-height: 150px;
 
 }
+.order .main .order-product .product-list .table .tbody .total .money-color{
+
+    color:#E02B41;
+
+    font-size: 17px;
+
+}
 .order .main .order-product .product-list .table .tbody .num{
 
     text-align: center;
@@ -576,7 +583,7 @@
 
     vertical-align: top;
 
-    margin-left: 24px;
+    margin-left: 40px;
 
     margin-top: 4px;
 
@@ -584,8 +591,23 @@
 
     font-size: 14px;
 
-    color: #999
+    width:90%;
 
+    outline:none;
+
+    border:1px solid #FFF;
+
+}
+.order .main .order-product .product-list .table .tfoot .order-product-remark .more{
+
+   line-height: 53px;
+
+   position: relative;
+
+   left:25px;
+
+   font-size:11px;
+  
 }
 /* 支付方式部分 */
 .order .main .order-tatal{
