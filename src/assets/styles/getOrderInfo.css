@@ -510,6 +510,9 @@
 
     vertical-align: middle;
 }
+.order .main .order-product .product-list .table .tbody .express1{
+    display: none
+}
 .order .main .order-product .product-list .table .tfoot{
 
     border-top: 1px solid #EFEFEF;
@@ -754,6 +757,15 @@
     float: right;
     
 }
+.order .main .order-tatal .order-tatal-content .order-tatal-row .order-tatal-price.total .money-all{
+
+    color: #E02B41;
+
+    font-size: 20px;
+    
+    font-weight: bold;
+    
+}
 .order .main .order-tatal .order-tatal-content .order-tatal-row .order-tatal-price.confirm{
 
     font-size: 0;
@@ -905,6 +917,8 @@
     top:18px;
 
     left:87px;
+
+    padding-left:10px;
 }
 #div2 .top .top-right{
 
@@ -943,6 +957,8 @@
     top:18px;
 
     left:20px;
+
+    padding-left:10px;
 
 }
 #div2 .middle{
@@ -1047,6 +1063,8 @@
     position: relative;
 
     left:105px;
+
+    padding-left:10px;
 
 }
 #div2 .button-two{
