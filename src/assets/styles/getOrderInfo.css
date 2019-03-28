@@ -797,6 +797,55 @@
     height:30px;
 
     margin-top:90px;
+    
+}
+/* 返回头部 */
+#topbar {
+
+    display: none;
+
+    position: fixed;
+
+    bottom: 60px;
+
+    right: 0;
+
+    background: rgba(0, 0, 0, 0.2);
+
+    width: 50px;
+
+    height: 50px;
+    
+}
+#topbar a {
+
+    color: #fff;
+
+    font-size: 32px;
+
+    position: absolute;
+
+    left: 10px;
+}
+
+#topbar .top-tip {
+
+    color: #fff;
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 10px;
+
+    font-size: initial;
+
+}
+
+#topbar:hover {
+
+    background: #E02B41;
+
 }
 /* 弹窗部分 */
 #open_btn {

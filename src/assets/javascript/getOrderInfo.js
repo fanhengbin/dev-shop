@@ -82,7 +82,7 @@ $(document).ready(function(){
         else{
         checked_five = 1
         }
-  }
+    }
         $('#number').blur(function () {
             phonenumber = $('#number').val();
             validateTel(phonenumber);
@@ -151,5 +151,14 @@ $(document).ready(function(){
         if (e.target == div) {
             $('#background').style.display = "none";
         }
-    }  
+    } ;
+    //返回top
+    window.onscroll = function () {
+	var t = document.documentElement.scrollTop;
+	if (t >= 600) {
+		$('#topbar').css('display', 'block');
+	} else {
+		$('#topbar').css('display', 'none');
+	}
+} 
 })
