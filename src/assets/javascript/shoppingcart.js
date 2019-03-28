@@ -33,7 +33,9 @@ $(function () {
 	}
 	//获得已选中商品和商品价格总额
 	function getCount() {
+		// 订单总价
 		var counts = 0;
+		// 商品数量
 		var sum = 0;
 		$('.td-inner input').each(function (index, el) {
 			if ($(this).prop('checked')) {
