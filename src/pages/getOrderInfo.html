@@ -286,9 +286,9 @@
                                             <p class="product-detail">全网公开版 耀黑</p>
                                         </div>
                                     </th>
-                                    <th class="price">￥1000</th>
+                                    <th class="price"><span>￥</span>1000</th>
                                     <th class="num">1</th>
-                                    <th class="total">￥1000</th>
+                                    <th class="total"><span class="money-color">￥</span>1000</th>
                                     <th class="express" rowspan="999">
                                         <p>0.00元</p>
                                     </th>
@@ -303,7 +303,7 @@
                                     </th>
                                     <th class="price">￥1000</th>
                                     <th class="num">1</th>
-                                    <th class="total">￥1000</th>
+                                    <th class="total"><span class="money-color">￥</span>1000</th>
                                 </tr>
                                 <tr>
                                     <th class="name">
@@ -315,7 +315,7 @@
                                     </th>
                                     <th class="price">￥1000</th>
                                     <th class="num">1</th>
-                                    <th class="total">￥1000</th>
+                                    <th class="total"><span class="money-color">￥</span>1000</th>
                                 </tr>
                             </tbody>
                             <tfoot class="tfoot">
@@ -326,7 +326,7 @@
                                     <td class="product-total" colspan="2">合计：<span class="price">￥1000</span></td>
                                 </tr>
                                 <tr class="order-product-remark">
-                                    <td colspan="5"><span class="title">备注</span></td>
+                                    <td colspan="5"><span class="more">备注:</span><input class="title"></td>
                                 </tr>
                             </tfoot>
                         </table>
@@ -470,10 +470,10 @@
                 <div id="div2">
                     <div class="top">
                         <div class="top-left"><span>收货人姓名</span>
-                            <input  type="text" class="name"  placeholder="请输入姓名">
+                            <input type="text" id="name" class="name"  placeholder="请输入姓名">
                         </div>
                         <div class="top-right"><span>收货人手机号码</span>
-                            <input type="text" class="number" placeholder="请输入手机号码" maxlength="11">
+                            <input class="number"  id="number"  placeholder="请输入手机号码" maxlength="11">
                         </div>
                     </div>
                     <div class="middle">
@@ -488,7 +488,7 @@
                         </ul>
                     </div>
                     <div class="bottom"><span>详细地址</span>
-                        <input type="text" class="detail">
+                        <input  id="detail" class="detail">
                     </div>
                     <!-- 弹窗后面的部分 -->
                     <div class="button-two">

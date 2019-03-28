@@ -216,10 +216,15 @@
     color: #E02B41;
 }
 
-.cart .delete,
+.cart .cart-merchant .delete,
 .cart .deleteSelected {
     color: #666;
     font-size: 12px;
+}
+
+.cart .delete .iconfont{
+    font-weight: 700;
+    font-size:   10px;
 }
 
 .footer {
@@ -306,6 +311,7 @@
     cursor: not-allowed;
     background-color: #DBDBDB;
     border-radius: 2px;
+    color: #fff;
 }
 
 .footer .footer-right .free,

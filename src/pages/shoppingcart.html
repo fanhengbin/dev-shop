@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="../assets/styles/reset.css">
     <!-- 公共样式   -->
     <link rel="stylesheet" href="../assets/styles/common.css">
-    <!-- 详情样式 -->
+    <!-- 购物车样式 -->
     <link rel="stylesheet" href="../assets/styles/shoppingcart.css">
+    <!-- icon字体 -->
+    <link rel="stylesheet" type="text/css" href="../assets/styles/iconfont.css">
     <!-- jq2.11 -->
     <script src="../assets/javascript/jquery.min.js"></script>
     <script src="../assets/javascript/shoppingcart.js"></script>
@@ -72,6 +74,87 @@
                                     <div class="cart-group">
                                         <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
                                         <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+=======
+    <!-- 公共头部 -->
+    <div class="common-header clearfix">
+        <div class="header-container">
+            <div class="top-logo">
+                <!--联蔚图标-->
+                <img src="http://www.connext.com.cn/assets/images/logo-pc.png" />
+            </div>
+            <div class="top-nav">
+                <div class="person-information">
+                    <!--头部未登录时状态栏 开始-->
+                    <ul class="unloaded-nav">
+                        <li class="status">
+                            <a href="loading.html">登录</a>
+                        </li>
+                        <li class="status">
+                            <a href="register.html">注册</a>
+                        </li>
+                        <!--mini-购物车栏开始-->
+                        <li class="mini-cart">
+                            <div class="cart-nav">
+                                <i class="iconfont icon-gouwuche"></i>
+                                <a href="javascript:void(0);">购物车</a>
+                                <span>(0)</span>
+                            </div>
+                            <!--空购物车开始-->
+                            <div class="empty-cart">
+                                <p>购物车中还没有商品，赶紧选购吧！</p>
+                            </div>
+                            <!--空购物车结束-->
+                            <!--购物车toast（有货）开始-->
+                            <div class="exist-cart">
+                                <div class="cart-list">
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-group">
+                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+                                                alt="" />
+                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                        </div>
+                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
+>>>>>>> 97077f88a4439f3c18537c3f5a2e4cf6e83077e1
                                     </div>
                                     <span class="icon iconfont icon-lajixiang cart-close"></span>
                                 </div>
@@ -199,8 +282,12 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 </div>
 <!--公共头部 结束-->
+=======
+    <!-- 购物车主体 -->
+>>>>>>> 97077f88a4439f3c18537c3f5a2e4cf6e83077e1
     <div class="cart">
         <!-- 购物车为空时 -->
         <div class="cart-empty center" style="display:none">
@@ -276,7 +363,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'><i class="iconfont icon-cuowu"></i></a></p>
                                 </li>
                             </ul>
                         </div>
@@ -318,7 +405,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'> <i class="iconfont icon-cuowu"></i> </a></p>
                                 </li>
                             </ul>
                         </div>
@@ -360,7 +447,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'><i class="iconfont icon-cuowu"></i></a></p>
                                 </li>
                             </ul>
                         </div>
@@ -402,7 +489,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'><i class="iconfont icon-cuowu"></i></a></p>
                                 </li>
                             </ul>
                         </div>
@@ -436,9 +523,9 @@
                         <span class="free">商品总价已满<em class='carriage-red'>￥300.00</em>，
                             免运费</span>
                     </div>
-                    <div class="btn-area fl" id='btn-sum'>
+                    <a class="btn-area fl" id='btn-sum' href="./getOrderinfo.html">
                         结 算
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
