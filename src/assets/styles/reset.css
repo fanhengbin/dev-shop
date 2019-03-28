@@ -24,3 +24,6 @@ img, input, button {
   border: none;
   vertical-align: middle;
 }
+em {
+    font-style: normal;
+}

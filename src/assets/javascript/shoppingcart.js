@@ -135,7 +135,7 @@ $(function () {
 				'background-color': '#fcfcfc'
 			});
 			$('#btn-sum').css({
-				'background-color': '#DBDBDB',
+				'background-color': '#F66567',
 				'cursor': 'not-allowed'
 			})
 		}
@@ -143,7 +143,9 @@ $(function () {
 	});
 	//未选中商品时禁止点击
 	$('#btn-sum').click(function (event) {
-		return false;
+		if ($('.td-inner input:checked').length === 0){
+			return false;
+		}
 	});
 	//点击某商品时选中
 	$('body').on('click', '.td-inner input', function (event) {
