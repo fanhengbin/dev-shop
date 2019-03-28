@@ -18,6 +18,63 @@
     <script src="../assets/javascript/shoppingcart.js"></script>
 </head>
 <body>
+ <!--公共头部 开始-->
+ <div class="common-header clearfix">
+    <div class="header-container">
+        <div class="top-logo">
+            <!--联蔚图标-->
+            <img src="http://www.connext.com.cn/assets/images/logo-pc.png" />
+        </div>
+        <div class="top-nav">
+            <div class="person-information">
+                <!--头部未登录时状态栏 开始-->
+                <ul class="unloaded-nav">
+                    <li class="status">
+                        <a href="loading.html">登录</a>
+                    </li>
+                    <li class="status">
+                        <a href="register.html">注册</a>
+                    </li>
+                    <!--mini-购物车栏开始-->
+                    <li class="mini-cart">
+                        <div class="cart-nav">
+                            <i class="iconfont icon-gouwuche"></i>
+                            <a href="shoppingcart.html">购物车</a>
+                            <span>(0)</span>
+                        </div>
+                        <!--空购物车开始-->
+                        <div class="empty-cart">
+                            <p>购物车中还没有商品，赶紧选购吧！</p>
+                        </div>
+                        <!--空购物车结束-->
+                        <!--购物车toast（有货）开始-->
+                        <div class="exist-cart">
+                            <div class="cart-list">
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span> </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+=======
     <!-- 公共头部 -->
     <div class="common-header clearfix">
         <div class="header-container">
@@ -97,110 +154,140 @@
                                             <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
                                         </div>
                                         <span class="icon iconfont icon-lajixiang cart-close"></span>
+>>>>>>> 97077f88a4439f3c18537c3f5a2e4cf6e83077e1
                                     </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
                                 </div>
-                                <div class="cart-payment">
-                                    <div class="cart-left">
-                                        <p>共<em>3</em>件商品</p>
-                                        <span class="cart-price"><em>378</em>元</span>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
                                     </div>
-                                    <div class="cart-right">
-                                        <a class="btn-cart" href="javascript:void(0);">去购物车结算</a>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
                                     </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
                                 </div>
                             </div>
-                            <!--购物车toast（有货）结束-->
-                        </li>
-                        <!--mini-购物车栏结束-->
-                    </ul>
-                    <!--头部未登录时状态栏 结束-->
-                    <!--头部登录时状态栏 开始-->
-                    <ul class="loaded-nav">
-                        <li class="status">
-                            <a href="javascript:void(0);">个人昵称</a>
-                        </li>
-                        <!--mini-购物车栏 开始-->
-                        <li class="mini-cart">
-                            <div class="cart-nav">
-                                <i class="iconfont icon-gouwuche"></i>
-                                <a href="javascript:void(0);">购物车</a>
-                                <span>(0)</span>
-                            </div>
-                            <div class="empty-cart">
-                                <p>购物车中还没有商品，赶紧选购吧！</p>
-                            </div>
-                            <!--购物车toast（有货）开始-->
-                            <div class="exist-cart">
-                                <div class="cart-list">
-                                    <div class="cart-item">
-                                        <div class="cart-group">
-                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
-                                                alt="" />
-                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-                                        </div>
-                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
-                                    </div>
-                                    <div class="cart-item">
-                                        <div class="cart-group">
-                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
-                                                alt="" />
-                                            <a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
-                                        </div>
-                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
-                                    </div>
-                                    <div class="cart-item">
-                                        <div class="cart-group">
-                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
-                                                alt="" />
-                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-                                        </div>
-                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
-                                    </div>
-                                    <div class="cart-item">
-                                        <div class="cart-group">
-                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
-                                                alt="" />
-                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-                                        </div>
-                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
-                                    </div>
-                                    <div class="cart-item">
-                                        <div class="cart-group">
-                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
-                                                alt="" />
-                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-                                        </div>
-                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
-                                    </div>
-                                    <div class="cart-item">
-                                        <div class="cart-group">
-                                            <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
-                                                alt="" />
-                                            <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-                                        </div>
-                                        <span class="icon iconfont icon-lajixiang cart-close"></span>
-                                    </div>
+                            <div class="cart-payment">
+                                <div class="cart-left">
+                                    <p>共<em>3</em>件商品</p>
+                                    <span class="cart-price"><em>378</em>元</span>
                                 </div>
-                                <div class="cart-payment">
-                                    <div class="cart-left">
-                                        <p>共<em>3</em>件商品</p>
-                                        <span class="cart-price"><em>378</em>元</span>
+                                <div class="cart-right">
+                                    <div class="right-cart">
+                                        <a class="btn-cart" href="shoppingcart.html">去购物车</a>
                                     </div>
-                                    <div class="cart-right">
-                                        <a class="btn-cart" href="javascript:void(0);">去购物车结算</a>
+                                    <div class="right-pay">
+                                        <a class="btn-pay" href="getOrderInfo.html">去结算</a>
                                     </div>
                                 </div>
                             </div>
-                            <!--购物车toast（有货）结束-->
-                        </li>
-                        <!--mini-购物车栏 结束-->
-                    </ul>
-                    <!--头部登录时状态栏 开始-->
-                </div>
+                        </div>
+                        <!--购物车toast（有货）结束-->
+                    </li>
+                    <!--mini-购物车栏结束-->
+                </ul>
+                <!--头部未登录时状态栏 结束-->
+                <!--头部登录时状态栏 开始-->
+                <ul class="loaded-nav">
+                    <li class="status">
+                        <a href="javascript:void(0);">个人昵称</a>
+                    </li>
+                    <!--mini-购物车栏 开始-->
+                    <li class="mini-cart">
+                        <div class="cart-nav">
+                            <i class="iconfont icon-gouwuche"></i>
+                            <a href="shoppingcart.html">购物车</a>
+                            <span>(0)</span>
+                        </div>
+                        <div class="empty-cart">
+                            <p>购物车中还没有商品，赶紧选购吧！</p>
+                        </div>
+                        <!--购物车toast（有货）开始-->
+                        <div class="exist-cart">
+                            <div class="cart-list">
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span> </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-group">
+                                        <img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
+                                        <a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+                                    </div>
+                                    <span class="icon iconfont icon-lajixiang cart-close"></span>
+                                </div>
+                            </div>
+                            <div class="cart-payment">
+                                <div class="cart-left">
+                                    <p>共<em>3</em>件商品</p>
+                                    <span class="cart-price"><em>378</em>元</span>
+                                </div>
+                                    <div class="cart-payment">
+                                <div class="cart-left">
+                                    <p>共<em>3</em>件商品</p>
+                                    <span class="cart-price"><em>378</em>元</span>
+                                </div>
+                                <div class="cart-right">
+                                    <div class="right-cart">
+                                        <a class="btn-cart" href="shoppingcart.html">去购物车</a>
+                                    </div>
+                                    <div class="right-pay">
+                                        <a class="btn-pay" href="getOrderInfo.html">去结算</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--购物车toast（有货）结束-->
+                    </li>
+                    <!--mini-购物车栏 结束-->
+                </ul>
+                <!--头部登录时状态栏 开始-->
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+</div>
+<!--公共头部 结束-->
+=======
     <!-- 购物车主体 -->
+>>>>>>> 97077f88a4439f3c18537c3f5a2e4cf6e83077e1
     <div class="cart">
         <!-- 购物车为空时 -->
         <div class="cart-empty center" style="display:none">

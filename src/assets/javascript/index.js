@@ -6,7 +6,7 @@ $(function () {
 		if (index < 0) {
 			index = $('.banner-slide li').length - 1;
 		}
-		$('.banner-slide li').eq(index).show().siblings().hide();
+		$('.banner-slide li').eq(index).fadeIn().siblings().fadeOut();
 		$('.focuses li').eq(index).addClass('current').siblings().removeClass('current');
 	});
 	//轮播图向右
@@ -15,7 +15,7 @@ $(function () {
 		if (index == $('.banner-slide li').length) {
 			index = 0;
 		}
-		$('.banner-slide li').eq(index).show().siblings().hide();
+		$('.banner-slide li').eq(index).fadeIn().siblings().fadeOut();
 		$('.focuses li').eq(index).addClass('current').siblings().removeClass('current');
 	});
 	//轮播图焦点

@@ -15,16 +15,16 @@ $(function () {
     });
     //新品 畅销
     $('.all-sale').bind('click', function() {
-        $('.item-hot-sale.yellow').show();
-        $('.item-hot-sale.red').show();
+        $('.item-hot-sale.yellow').fadeIn();
+        $('.item-hot-sale.red').fadeIn();
     });
     $('.new-goods').bind('click', function() {
-        $('.item-hot-sale.red').show();
-        $('.item-hot-sale.yellow').hide();
+        $('.item-hot-sale.red').fadeIn();
+        $('.item-hot-sale.yellow').fadeOut();
     });
     $('.nice-sale').bind('click', function() {
-        $('.item-hot-sale.yellow').show();
-        $('.item-hot-sale.red').hide();
+        $('.item-hot-sale.yellow').fadeIn();
+        $('.item-hot-sale.red').fadeOut();
     })
 });
 //检测返回首部
