@@ -83,6 +83,10 @@ $(document).ready(function(){
         checked_five = 1
         }
   }
+        $('#number').blur(function () {
+            phonenumber = $('#number').val();
+            validateTel(phonenumber);
+        });
     $('#detail').on('input propertychange', function () {
         if ($('#detail').val() === "") {
             checked_four = 1
