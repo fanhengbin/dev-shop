@@ -66,7 +66,9 @@ html{
 
     border:1px solid #aaa;
 
-    outline:none
+    outline:none;
+
+    padding-left:10px;
 
 }
 .main-register .box .table1{
@@ -79,7 +81,9 @@ html{
 
     border:1px solid #aaa;
 
-    outline:none
+    outline:none;
+
+    padding-left:10px;
 
 }
 .main-register .box .telephone{

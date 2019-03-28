@@ -11,631 +11,689 @@
 </head>
 <body>
 	<div class="program-wrapper">
-	<!--公共头部 开始-->
-	<div class="common-header">
-		<div class="header-container">
-			<div class="top-logo">
-				<!--联蔚图标-->
-				<img src="http://www.connext.com.cn/assets/images/logo-pc.png" />
-			</div>
-			<div class="top-nav">
-				<div class="person-information">
-					<!--头部未登录时状态栏 开始-->
-					<ul class="unloaded-nav">
-						<li class="status">
-							<a href="loading.html">登录</a>
-						</li>
-						<li class="status">
-							<a href="register.html">注册</a>
-						</li>
-						<!--mini-购物车栏开始-->
-						<li class="mini-cart">
-							<div class="cart-nav">
-								<i class="iconfont icon-gouwuche"></i>
-								<a href="shoppingcart.html">购物车</a>
-								<span>(0)</span>
-							</div>
-							<!--空购物车开始-->
-							<div class="empty-cart">
-								<p>购物车中还没有商品，赶紧选购吧！</p>
-							</div>
-							<!--空购物车结束-->
-							<!--购物车toast（有货）开始-->
-							<div class="exist-cart">
-								<div class="cart-list">
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
-										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span> </div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
-										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
+		<!--公共头部 开始-->
+		<div class="common-header">
+			<div class="header-container">
+				<div class="top-logo">
+					<!--联蔚图标-->
+					<img src="http://www.connext.com.cn/assets/images/logo-pc.png" />
+				</div>
+				<div class="top-nav">
+					<div class="person-information">
+						<!--头部未登录时状态栏 开始-->
+						<ul class="unloaded-nav">
+							<li class="status">
+								<a href="loading.html">登录</a>
+							</li>
+							<li class="status">
+								<a href="register.html">注册</a>
+							</li>
+							<!--mini-购物车栏开始-->
+							<li class="mini-cart">
+								<div class="cart-nav">
+									<i class="iconfont icon-gouwuche"></i>
+									<a href="shoppingcart.html">购物车</a>
+									<span>(0)</span>
 								</div>
-								<div class="cart-payment">
-									<div class="cart-left">
-										<p>共<em>3</em>件商品</p>
-										<span class="cart-price"><em>378</em>元</span>
-									</div>
-									<div class="cart-right">
-										<div class="right-cart">
-											<a class="btn-cart" href="shoppingcart.html">去购物车</a>
-										</div>
-										<div class="right-pay">
-											<a class="btn-pay" href="getOrderInfo.html">去结算</a>
-										</div>
-									</div>
+								<!--空购物车开始-->
+								<div class="empty-cart">
+									<p>购物车中还没有商品，赶紧选购吧！</p>
 								</div>
-							</div>
-							<!--购物车toast（有货）结束-->
-						</li>
-						<!--mini-购物车栏结束-->
-					</ul>
-					<!--头部未登录时状态栏 结束-->
-					<!--头部登录时状态栏 开始-->
-					<ul class="loaded-nav">
-						<li class="status">
-							<a href="javascript:void(0);">个人昵称</a>
-						</li>
-						<!--mini-购物车栏 开始-->
-						<li class="mini-cart">
-							<div class="cart-nav">
-								<i class="iconfont icon-gouwuche"></i>
-								<a href="shoppingcart.html">购物车</a>
-								<span>(0)</span>
-							</div>
-							<div class="empty-cart">
-								<p>购物车中还没有商品，赶紧选购吧！</p>
-							</div>
-							<!--购物车toast（有货）开始-->
-							<div class="exist-cart">
-								<div class="cart-list">
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+								<!--空购物车结束-->
+								<!--购物车toast（有货）开始-->
+								<div class="exist-cart">
+									<div class="cart-list">
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
 										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
 										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span> </div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
 										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
 										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
 										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
-									</div>
-									<div class="cart-item">
-										<div class="cart-group">
-											<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60" alt="" />
-											<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
 										</div>
-										<span class="icon iconfont icon-lajixiang cart-close"></span>
 									</div>
-								</div>
-								<div class="cart-payment">
-									<div class="cart-left">
-										<p>共<em>3</em>件商品</p>
-										<span class="cart-price"><em>378</em>元</span>
-									</div>
-										<div class="cart-payment">
-									<div class="cart-left">
-										<p>共<em>3</em>件商品</p>
-										<span class="cart-price"><em>378</em>元</span>
-									</div>
-									<div class="cart-right">
-										<div class="right-cart">
-											<a class="btn-cart" href="shoppingcart.html">去购物车</a>
-										</div>
-										<div class="right-pay">
-											<a class="btn-pay" href="getOrderInfo.html">去结算</a>
+									<div class="cart-payment">
+										<!-- <div class="cart-left">
+											<p>共<em>3</em>件商品</p>
+											<span class="cart-price"><em>378</em>元</span>
+										</div> -->
+										<div class="cart-right">
+											<div class="right-cart">
+												<a class="btn-cart" href="shoppingcart.html">去购物车</a>
+											</div>
+											<div class="right-pay">
+												<a class="btn-pay" href="getOrderInfo.html">去结算</a>
+											</div>
 										</div>
 									</div>
 								</div>
+								<!--购物车toast（有货）结束-->
+							</li>
+							<!--mini-购物车栏结束-->
+						</ul>
+						<!--头部未登录时状态栏 结束-->
+						<!--头部登录时状态栏 开始-->
+						<ul class="loaded-nav">
+							<li class="status">
+								<a href="javascript:void(0);">个人昵称</a>
+							</li>
+							<!--mini-购物车栏 开始-->
+							<li class="mini-cart">
+								<div class="cart-nav">
+									<i class="iconfont icon-gouwuche"></i>
+									<a href="shoppingcart.html">购物车</a>
+									<span>(0)</span>
 								</div>
-							</div>
-							<!--购物车toast（有货）结束-->
-						</li>
-						<!--mini-购物车栏 结束-->
-					</ul>
-					<!--头部登录时状态栏 开始-->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--公共头部 结束-->
-	<!--主体内容开始-->
-	<div class="content">
-		<div class="content-container">
-			<!--轮播图部分 开始-->
-			<div class="banner">
-				<ul class="banner-slide">
-					<li style="background:lavender;"><img src="https://i1.mifile.cn/a4/xmad_1553001447971_RgNpT.jpg" alt="" /></li>
-					<li style="background:cornflowerblue;"><img src="https://i1.mifile.cn/a4/xmad_15531706266207_cZlMr.jpg" alt="" /></li>
-					<li style="background:seashell;"><img src="https://i1.mifile.cn/a4/xmad_15532221946866_GWSJZ.jpg" alt="" /></li>
-					<li style="background:goldenrod;"><img src="https://i1.mifile.cn/a4/xmad_15529914399183_EUdDC.jpg" alt="" /></li>
-					<li style="background:slategray;"><img src="https://i1.mifile.cn/a4/xmad_15517939170939_oiXCK.jpg" alt="" /></li>
-				</ul>
-				<div class="focuses">
-					<ul>
-						<li class="current"></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-				<div class="swiper-arrow">
-					<span class="iconfont icon-xiangzuojiantou slide-left" data-icon=""></span>
-					<span class="iconfont icon-xiangyoujiantou slide-right" data-icon=""></span>
-				</div>
-			</div>
-			<!--轮播图部分 结束-->
-			<div class="goods-block">
-				<div class="goods-container">
-					<div class="goods-group">
-						<a href="category.html" class="">
-							<img src="https://i1.mifile.cn/a4/xmad_15531711416212_ZCfRS.jpg" alt="类目图片" />
-						</a>
-						<div class="goods-name">
-							<a class="goods-title" href="category.html">类目</a>
-						</div>
-						<div class="detail-recommend">
-							<ul class="detail-recommend-slider-wrap">
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
+								<div class="empty-cart">
+									<p>购物车中还没有商品，赶紧选购吧！</p>
+								</div>
+								<!--购物车toast（有货）开始-->
+								<div class="exist-cart">
+									<div class="cart-list">
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
 										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-												<s>¥28</s>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">灰太狼平底锅</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
+										</div>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
+										</div>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
+										</div>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
+										</div>
+										<div class="cart-item">
+											<div class="cart-group">
+												<img src="https://i1.mifile.cn/a1/pms_1513864376.45999722.jpg?width=60&height=60"
+													alt="" />
+												<a href="">联蔚微波炉</a><span class="item-price"><a>123</a>元</span>
+											</div>
+											<span class="icon iconfont icon-lajixiang cart-close"></span>
+										</div>
+									</div>
+									<div class="cart-payment">
+										<!-- <div class="cart-left">
+											<p>共<em>3</em>件商品</p>
+											<span class="cart-price"><em>378</em>元</span>
+										</div> -->
+										<div class="cart-right">
+											<div class="right-cart">
+												<a class="btn-cart" href="shoppingcart.html">去购物车</a>
+											</div>
+											<div class="right-pay">
+												<a class="btn-pay" href="getOrderInfo.html">去结算</a>
 											</div>
 										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-												<s>¥28</s>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-												<s>¥28</s>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-												<s>¥28</s>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-												<s>¥28</s>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				<div class="goods-group">
-						<a href="category.html" class="">
-							<img src="https://i1.mifile.cn/a4/xmad_15531711416212_ZCfRS.jpg" alt="类目图片" />
-						</a>
-						<div class="goods-name">
-							<a class="goods-title" href="category.html">类目</a>
-						</div>
-						<div class="detail-recommend">
-							<ul class="detail-recommend-slider-wrap">
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-								<li class="detail-rs-item">
-									<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
-										<div class="mod-pic">
-											<img class="lazy" src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg" width="180" height="180" draggable="false">
-										</div>
-										<div class="mod-desc">
-											<h4 class="vm-title">魅族 X8 高透保护膜</h4>
-											<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
-												助双眼捕捉每一颗像素的色彩</h6>
-											<p class="vm-price">
-												<span>¥</span>
-												<span class="vm-price-text">19</span>
-											</p>
-											<div class="vm-link">
-												<span>参看详情</span>
-											</div>
-										</div>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				
-				</div>
-			</div>
-		</div>
-		<!--主体内容结束-->
-		<!--公共尾部开始-->
-		<div class="common-footer ">
-			<div class="footer-container ">
-				<div class="footer-top ">
-					<ul class="footer-service ">
-						<li>
-							<a href="javascript:void(0); "><img src="https://fms.res.meizu.com/dms/2018/07/13/2c69bf7c-2d29-4fd4-852e-0aa497f36f51.png " alt=" " /><span>满300免运费</span></a>
-						</li>
-						<li>
-							<a href="javascript:void(0); "><img src="https://fms.res.meizu.com/dms/2018/07/13/d28eac8b-b915-49dc-9dbd-80884a07d44f.png " alt=" " /><span>100+ 城市次日送达</span></a>
-						</li>
-						<li>
-							<a href="javascript:void(0); "><img src="https://fms.res.meizu.com/dms/2018/07/13/b21f3e65-f7f4-4693-914c-c070faf96770.png " alt=" " /><span>7天无理由退货</span></a>
-						</li>
-						<li>
-							<a href="javascript:void(0); "><img src="https://fms.res.meizu.com/dms/2018/07/13/1998f0da-a439-4e07-9736-e6a1c39fb0ae.png " alt=" " /><span>15天换货保障</span></a>
-						</li>
-						<li>
-							<a href="javascript:void(0); "><img src="https://fms.res.meizu.com/dms/2018/07/13/420825c1-4763-436d-b3e1-721651ccc70c.png " alt=" " /><span>1年免费保修</span></a>
-						</li>
-						<li>
-							<a href="javascript:void(0); "><img src="https://fms.res.meizu.com/dms/2018/07/13/1c5cfeff-1b35-499e-bc2a-1fd29305be69.png " alt=" " /><span>上门快修</span></a>
-						</li>
-					</ul>
-					<div class="footer-server ">
-						<span>周一至周五 9:00-18:00</span>
-						<p>400-670-5818</p>
-					</div>
-				</div>
-				<hr class="footer-hr " />
-				<div class="footer-bottom ">
-					<ul class="footer-links ">
-						<li>
-							<a href="javascript:void(0); ">了解联蔚</a>
-						</li>
-						<li>
-							<a href="javascript:void(0); ">加入我们</a>
-						</li>
-						<li>
-							<a href="javascript:void(0); ">联系我们</a>
-						</li>
-						<li>
-							<a href="javascript:void(0); ">connext</a>
-						</li>
-						<li>
-							<a href="javascript:void(0); ">公司地址</a>
-						</li>
-						<li>
-							<a href="javascript:void(0); ">问题反馈</a>
-						</li>
-						<li>
-							<a href="javascript:void(0); ">线上销售授权名单公示</a>
-						</li>
-						<li>
-							<a href="javascript:void(0); ">出版物经营许可证</a>
-						</li>
-					</ul>
-					<div class="footer-certificate ">
-						Copyright © , Connext Co., Ltd. All Rights Reserved.上海联蔚信息科技有限公司　　 隐私 / 使用条款 / 沪公安网备案 33300222000012098号/
-						<a class="icp " target="_blank " href="http://www.miitbeian.gov.cn ">沪ICP备10006391号-54</a>
+									</div>
+								</div>
+								<!--购物车toast（有货）结束-->
+							</li>
+							<!--mini-购物车栏 结束-->
+						</ul>
+						<!--头部登录时状态栏 开始-->
 					</div>
 				</div>
 			</div>
 		</div>
-	<!--公共尾部结束-->
-		<!--返回顶部-->
-		<div id="topbar">
-			<a href="javascript:window.scrollTo(0,0); " class="iconfont icon-xiangshangjiantou "></a>
-			<a href="javascript:window.scrollTo(0,0); " class="top-tip ">TOP</a>
+		<!--公共头部 结束-->
+		<!--主体内容开始-->
+		<div class="content">
+			<div class="content-container">
+				<!--轮播图部分 开始-->
+				<div class="banner">
+					<ul class="banner-slide">
+						<li style="background:lavender;"><img src="https://i1.mifile.cn/a4/xmad_1553001447971_RgNpT.jpg"
+								alt="" /></li>
+						<li style="background:cornflowerblue;"><img
+								src="https://i1.mifile.cn/a4/xmad_15531706266207_cZlMr.jpg" alt="" /></li>
+						<li style="background:seashell;"><img
+								src="https://i1.mifile.cn/a4/xmad_15532221946866_GWSJZ.jpg" alt="" /></li>
+						<li style="background:goldenrod;"><img
+								src="https://i1.mifile.cn/a4/xmad_15529914399183_EUdDC.jpg" alt="" /></li>
+						<li style="background:slategray;"><img
+								src="https://i1.mifile.cn/a4/xmad_15517939170939_oiXCK.jpg" alt="" /></li>
+					</ul>
+					<div class="focuses">
+						<ul>
+							<li class="current"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="swiper-arrow">
+						<span class="iconfont icon-xiangzuojiantou slide-left" data-icon=""></span>
+						<span class="iconfont icon-xiangyoujiantou slide-right" data-icon=""></span>
+					</div>
+				</div>
+				<!--轮播图部分 结束-->
+				<div class="goods-block">
+					<div class="goods-container">
+						<div class="goods-group">
+							<a href="category.html" class="">
+								<img src="https://i1.mifile.cn/a4/xmad_15531711416212_ZCfRS.jpg" alt="类目图片" />
+							</a>
+							<div class="goods-name">
+								<a class="goods-title" href="category.html">类目</a>
+							</div>
+							<div class="detail-recommend">
+								<ul class="detail-recommend-slider-wrap">
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+													<s>¥28</s>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+													<s>¥28</s>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+													<s>¥28</s>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+													<s>¥28</s>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+													<s>¥28</s>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="goods-group">
+							<a href="category.html" class="">
+								<img src="https://i1.mifile.cn/a4/xmad_15531711416212_ZCfRS.jpg" alt="类目图片" />
+							</a>
+							<div class="goods-name">
+								<a class="goods-title" href="category.html">类目</a>
+							</div>
+							<div class="detail-recommend">
+								<ul class="detail-recommend-slider-wrap">
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="detail-rs-item">
+										<a class="detail-rs-item-wrap" title="魅族 X8 高透保护膜" href="details.html">
+											<div class="mod-pic">
+												<img class="lazy"
+													src="https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgmuAHzQbAAflWG0_wvs749.png680x680.jpg"
+													width="180" height="180" draggable="false">
+											</div>
+											<div class="mod-desc">
+												<h4 class="vm-title">魅族 X8 高透保护膜</h4>
+												<h6 class="vm-subtitle" title="高透光率 助双眼捕捉每一颗像素的色彩">高透光率
+													助双眼捕捉每一颗像素的色彩</h6>
+												<p class="vm-price">
+													<span>¥</span>
+													<span class="vm-price-text">19</span>
+												</p>
+												<div class="vm-link">
+													<span>参看详情</span>
+												</div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--主体内容结束-->
+			<!--公共尾部开始-->
+			<div class="common-footer ">
+				<div class="footer-container ">
+					<div class="footer-top ">
+						<ul class="footer-service ">
+							<li>
+								<a href="javascript:void(0); "><img
+										src="https://fms.res.meizu.com/dms/2018/07/13/2c69bf7c-2d29-4fd4-852e-0aa497f36f51.png "
+										alt=" " /><span>满300免运费</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0); "><img
+										src="https://fms.res.meizu.com/dms/2018/07/13/d28eac8b-b915-49dc-9dbd-80884a07d44f.png "
+										alt=" " /><span>100+ 城市次日送达</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0); "><img
+										src="https://fms.res.meizu.com/dms/2018/07/13/b21f3e65-f7f4-4693-914c-c070faf96770.png "
+										alt=" " /><span>7天无理由退货</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0); "><img
+										src="https://fms.res.meizu.com/dms/2018/07/13/1998f0da-a439-4e07-9736-e6a1c39fb0ae.png "
+										alt=" " /><span>15天换货保障</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0); "><img
+										src="https://fms.res.meizu.com/dms/2018/07/13/420825c1-4763-436d-b3e1-721651ccc70c.png "
+										alt=" " /><span>1年免费保修</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0); "><img
+										src="https://fms.res.meizu.com/dms/2018/07/13/1c5cfeff-1b35-499e-bc2a-1fd29305be69.png "
+										alt=" " /><span>上门快修</span></a>
+							</li>
+						</ul>
+						<div class="footer-server ">
+							<span>周一至周五 9:00-18:00</span>
+							<p>400-670-5818</p>
+						</div>
+					</div>
+					<hr class="footer-hr " />
+					<div class="footer-bottom ">
+						<ul class="footer-links ">
+							<li>
+								<a href="javascript:void(0); ">了解联蔚</a>
+							</li>
+							<li>
+								<a href="javascript:void(0); ">加入我们</a>
+							</li>
+							<li>
+								<a href="javascript:void(0); ">联系我们</a>
+							</li>
+							<li>
+								<a href="javascript:void(0); ">connext</a>
+							</li>
+							<li>
+								<a href="javascript:void(0); ">公司地址</a>
+							</li>
+							<li>
+								<a href="javascript:void(0); ">问题反馈</a>
+							</li>
+							<li>
+								<a href="javascript:void(0); ">线上销售授权名单公示</a>
+							</li>
+							<li>
+								<a href="javascript:void(0); ">出版物经营许可证</a>
+							</li>
+						</ul>
+						<div class="footer-certificate ">
+							Copyright © , Connext Co., Ltd. All Rights Reserved.上海联蔚信息科技有限公司　　 隐私 / 使用条款 / 沪公安网备案
+							33300222000012098号/
+							<a class="icp " target="_blank " href="http://www.miitbeian.gov.cn ">沪ICP备10006391号-54</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--公共尾部结束-->
+			<!--返回顶部-->
+			<div id="topbar">
+				<a href="javascript:window.scrollTo(0,0); " class="iconfont icon-xiangshangjiantou "></a>
+				<a href="javascript:window.scrollTo(0,0); " class="top-tip ">TOP</a>
+			</div>
+			<!--返回顶部-->
 		</div>
-		<!--返回顶部-->
-	</div>
-	<script type="text/javascript" src="../assets/javascript/index.js"></script>
-	<script type="text/javascript" src="../assets/javascript/minicart.js"></script>
+		<script type="text/javascript" src="../assets/javascript/index.js"></script>
+		<script type="text/javascript" src="../assets/javascript/minicart.js"></script>
 </body>
 </html>
