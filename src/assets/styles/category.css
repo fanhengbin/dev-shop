@@ -83,7 +83,7 @@
   line-height: normal;
 }
 .content .content-container .goods-block .goods-container .goods-category .price-sort .refer-content .list-inline div.plp-advance-filter input[type=submit] {
-  background: #00c3f5;
+  background: #E02B41;
   width: 48px;
   text-align: center;
   margin-left: 0;
@@ -98,13 +98,14 @@
 .content .content-container .goods-block .goods-container .goods-category .price-sort .refer-content .list-inline a.active,
 .content .content-container .goods-block .goods-container .goods-category .price-sort .refer-content .list-inline a:hover {
   transition: all .2s;
-  color: #00c3f5;
+  color: #E02B41;
 }
 .content .content-container .goods-block .goods-container .goods-category .filter-order {
   color: #333;
   border: 1px solid #ededed;
   border-bottom: 0;
   line-height: 50px;
+  padding-bottom: 10px;
 }
 .content .content-container .goods-block .goods-container .goods-category .filter-order a {
   position: relative;
@@ -117,7 +118,7 @@
 .content .content-container .goods-block .goods-container .goods-category .filter-order a.active,
 .content .content-container .goods-block .goods-container .goods-category .filter-order a:hover {
   transition: all .2s;
-  color: #00c3f5;
+  color: #E02B41;
 }
 .content .content-container .goods-block .goods-container .goods-group {
   position: relative;
@@ -225,5 +226,5 @@
 }
 
 #topbar:hover {
-  background: #00305e;
+  background: #E02B41;
 }

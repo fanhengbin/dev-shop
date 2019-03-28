@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="../assets/styles/reset.css">
     <!-- 公共样式   -->
     <link rel="stylesheet" href="../assets/styles/common.css">
-    <!-- 详情样式 -->
+    <!-- 购物车样式 -->
     <link rel="stylesheet" href="../assets/styles/shoppingcart.css">
+    <!-- icon字体 -->
+    <link rel="stylesheet" type="text/css" href="../assets/styles/iconfont.css">
     <!-- jq2.11 -->
     <script src="../assets/javascript/jquery.min.js"></script>
     <script src="../assets/javascript/shoppingcart.js"></script>
 </head>
 <body>
+    <!-- 公共头部 -->
     <div class="common-header clearfix">
         <div class="header-container">
             <div class="top-logo">
@@ -197,6 +200,7 @@
             </div>
         </div>
     </div>
+    <!-- 购物车主体 -->
     <div class="cart">
         <!-- 购物车为空时 -->
         <div class="cart-empty center" style="display:none">
@@ -272,7 +276,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'><i class="iconfont icon-cuowu"></i></a></p>
                                 </li>
                             </ul>
                         </div>
@@ -314,7 +318,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'> <i class="iconfont icon-cuowu"></i> </a></p>
                                 </li>
                             </ul>
                         </div>
@@ -356,7 +360,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'><i class="iconfont icon-cuowu"></i></a></p>
                                 </li>
                             </ul>
                         </div>
@@ -398,7 +402,7 @@
                                     <span>49.00</span>
                                 </li>
                                 <li>
-                                    <p><a href="#" class='delete'>删除</a></p>
+                                    <p><a href="#" class='delete'><i class="iconfont icon-cuowu"></i></a></p>
                                 </li>
                             </ul>
                         </div>
@@ -432,9 +436,9 @@
                         <span class="free">商品总价已满<em class='carriage-red'>￥300.00</em>，
                             免运费</span>
                     </div>
-                    <div class="btn-area fl" id='btn-sum'>
+                    <a class="btn-area fl" id='btn-sum' href="./getOrderinfo.html">
                         结 算
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
