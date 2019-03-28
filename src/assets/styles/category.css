@@ -148,6 +148,10 @@
   margin-top: 25px;
   background: #fff;
   display: block;
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
 }
 .content .content-container .goods-block .goods-container .goods-group .detail-rs-item:hover {
   box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.2);
@@ -227,4 +231,13 @@
 
 #topbar:hover {
   background: #E02B41;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

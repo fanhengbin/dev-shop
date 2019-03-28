@@ -7,8 +7,7 @@
 }
 .fr {
   float: right;
-}
-.common-header {
+}.common-header {
   width: 100%;
 }
 .common-header .header-container {
@@ -147,7 +146,6 @@
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-right {
   float: right;
-  width: 130px;
   top: 20px;
   right: 30px;
   position: relative;
@@ -155,9 +153,23 @@
   line-height: 30px;
   text-align: center;
   color: #F5F5F5;
+}
+.common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-cart {
+  background: #E02B41;
+  width: 80px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-cart .btn-cart {
+  color: #F5F5F5;
+}
+.common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-pay {
+  background: #E02B41;
+  width: 80px;
+  display: inline-block;
   background: #E02B41;
 }
-.common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-right .btn-cart {
+.common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-pay .btn-pay {
   color: #F5F5F5;
 }
 .common-header .header-container .top-nav .person-information .unloaded-nav .mini-cart:hover .empty-cart {
@@ -275,7 +287,6 @@
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-right {
   float: right;
-  width: 130px;
   top: 20px;
   right: 30px;
   position: relative;
@@ -283,9 +294,23 @@
   line-height: 30px;
   text-align: center;
   color: #F5F5F5;
+}
+.common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-cart {
+  background: #E02B41;
+  width: 80px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-cart .btn-cart {
+  color: #F5F5F5;
+}
+.common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-pay {
+  background: #E02B41;
+  width: 80px;
+  display: inline-block;
   background: #E02B41;
 }
-.common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-right .btn-cart {
+.common-header .header-container .top-nav .person-information .loaded-nav .mini-cart .exist-cart .cart-payment .cart-right .right-pay .btn-pay {
   color: #F5F5F5;
 }
 .common-header .header-container .top-nav .person-information .loaded-nav .mini-cart:hover .empty-cart {
