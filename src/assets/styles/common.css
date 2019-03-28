@@ -7,7 +7,11 @@
 }
 .fr {
   float: right;
-}.common-header {
+}
+.clearfix {
+  clear:both;
+}
+.common-header {
   width: 100%;
 }
 .common-header .header-container {
