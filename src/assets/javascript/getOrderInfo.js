@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    var checked_one,password001,checked_five, checked_three,checked_two,
-    checked_four=1;
+    var checked_one,checked_five=1, checked_three=1,checked_two, checked_four=1;
     // 鼠标划上已经写好的地址上面会显示修改和删除
     $('.order-address-check.checked').mouseover(function(){
         var index3 = $('.order-address-check.checked').index(this);
@@ -34,7 +33,12 @@ $(document).ready(function(){
     var div = document.getElementById('background');
     // 点击地址上的新增
     $('.order-address-check.add').click(function(){
-        $('#background').css("display","block")
+        $('#background').css("display","block");
+        $('#name').val("");
+        $('#number').val("");
+        $('#detail').val("");
+        $("#cmbProvince option:first").prop("selected", 'selected');
+        addressInit('cmbProvince', 'cmbCity', 'cmbArea'); 
         checked_one = 1;
     });
     // 点击地址上的修改
@@ -61,7 +65,6 @@ $(document).ready(function(){
     });
     //   监听电话号码变化
     $('#number').on('input propertychange', function () {
-        phonenumber = $('#number').val();
         if ($('#number').val() === "") {
             checked_five = 1
          }
@@ -72,15 +75,14 @@ $(document).ready(function(){
     //  离开焦点后发生变化  
     //手机号码正则表达式
     var reg = /^1[3578][01379]\d{8}|1[34578][01256]\d{8}|(134[012345678]\d{7}|1[34578][012356789]\d{8})$/g;
-    $('#number').blur(function () {
-        //   手机号码的要求
-        if (!reg.test(phonenumber)) {
-            checked_five = 1
+    function validateTel (tel){
+        if(reg.test(tel)){
+        checked_five = 0   
         }
         else{
-            checked_five = 0  
+        checked_five = 1
         }
-    });
+  }
     $('#detail').on('input propertychange', function () {
         if ($('#detail').val() === "") {
             checked_four = 1
@@ -97,7 +99,6 @@ $(document).ready(function(){
             checked_four = 0
         }
     });
-   
     // 点击关闭弹窗会清空弹窗内信息
     $('#close-button').click(function(){
         div.style.display = "none";
@@ -107,22 +108,31 @@ $(document).ready(function(){
         $("#cmbProvince option:first").prop("selected", 'selected');
         addressInit('cmbProvince', 'cmbCity', 'cmbArea'); 
     });
-    // 点击确认会清空弹窗内信息
+    // 点击确认弹窗内信息
+    var time =0;
     $('.confirm').click(function(){
-            if($('#cmbProvince').val()!=="请选择省份"){
-                checked_two =1
-            }
+        if($('#cmbProvince').val()!=="请选择省份"){
+            checked_two =1
+        }
+        $('#number').blur(function () {
+            phonenumber = $('#number').val();
+            validateTel(phonenumber);
+        });
         if(checked_one == 1&&checked_two ==1 && checked_three !== 1&&checked_four !== 1&& checked_five !==1){
+            checked_five=checked_four=checked_three=1;
+            checked_one=checked_two=0;
             div.style.display = "none";
             $('.order-address-check.checked').css("display","block");
-            $('.name').val("");
-            $('.number').val("");
-            $('.detail').val("");
-            $("#cmbProvince option:first").prop("selected", 'selected');
-            addressInit('cmbProvince', 'cmbCity', 'cmbArea'); 
-            checked_two =0;
         }
-        checked_two = 0;
+        validateTel(phonenumber);
+        time = 10; //设定间隔时间（秒）
+        //启动计时器，倒计时time秒后自动关闭计时器。
+        var index = setInterval(function(){
+            time--;
+            if (time == 0) {
+                clearInterval(index);
+            }
+        }, 1000);
     });
     // 点击返回会清空弹窗内信息
     $('.cancel').click(function(){
